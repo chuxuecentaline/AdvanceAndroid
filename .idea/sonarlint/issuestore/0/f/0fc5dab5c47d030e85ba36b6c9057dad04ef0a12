@@ -1,4 +1,4 @@
 
-\"squid:SwitchLastCaseIsDefaultCheckC""Add a default case to this switch.(¼œóÛüÿÿÿÿ8–¯Ë¿õ,
+\"squid:SwitchLastCaseIsDefaultCheckG""Add a default case to this switch.(¼œóÛüÿÿÿÿ8–¯Ë¿õ,
+zsquid:S1450""WRemove the "mAdapter" field and declare it as a local variable in the relevant methods.(ğŒ·ùùÿÿÿÿ8–¯Ë¿õ,
 csquid:UselessImportCheck"8Remove this unused import 'android.view.LayoutInflater'.(À¯ÑÇ8ÈË¿õ,
-zsquid:S1450"WRemove the "mAdapter" field and declare it as a local variable in the relevant methods.(ğŒ·ùùÿÿÿÿ8–¯Ë¿õ,

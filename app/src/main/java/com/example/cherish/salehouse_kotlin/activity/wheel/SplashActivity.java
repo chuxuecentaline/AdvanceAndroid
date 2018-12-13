@@ -8,6 +8,7 @@ import com.example.cherish.salehouse_kotlin.R;
 
 public class SplashActivity extends BaseActivity {
 
+
     @Override
     public int getContentViewId() {
         return R.layout.activity_splash;

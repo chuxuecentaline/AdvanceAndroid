@@ -1,0 +1,5 @@
+
+usquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8ÆØé©ú,
+Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÛÖŽý8Áðê©ú,
+lsquid:MaximumInheritanceDepth
+"<This class has 8 parents which is greater than 5 authorized.(èý»å8™—ê©ú,

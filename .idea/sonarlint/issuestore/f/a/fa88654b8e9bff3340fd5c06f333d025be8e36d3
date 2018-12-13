@@ -1,6 +1,6 @@
 
 ‘squid:UselessImportCheck"fRemove this unused import 'com.example.cherish.salehouse_kotlin.activity.wheel.AutoViewPagerActivity'.(šÛ¯8ÇíâÀù,
-squid:S1186H"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Á…‘8ê¯áÀù,
-jsquid:MaximumInheritanceDepth$"<This class has 8 parents which is greater than 5 authorized.(æÑ´ûÿÿÿÿ
-lsquid:S1858Q"I"result" is already a string, there's no need to call "toString()" on it.(å£•Òøÿÿÿÿ8ê¯áÀù,
 Ÿsquid:S1186y"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(°‡“º8ê¯áÀù,
+lsquid:S1858Q"I"result" is already a string, there's no need to call "toString()" on it.(å£•Òøÿÿÿÿ8ê¯áÀù,
+jsquid:MaximumInheritanceDepth$"<This class has 8 parents which is greater than 5 authorized.(æÑ´ûÿÿÿÿ
+squid:S1186H"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Á…‘8ê¯áÀù,

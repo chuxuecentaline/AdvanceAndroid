@@ -1,0 +1,7 @@
+
+usquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8—«…©ú,
+squid:S00116"[Rename this field "tv_dynamic_proxy" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö¥œ¡ýÿÿÿÿ8Åª–©ú,
+esquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(¥“ù³
+isquid:S13011"KReplace this "switch" statement by "if" statements to increase readability.(ŽºÖ8£¨œ©ú,
+rsquid:S00116"SRename this field "tv_proxy" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(žÅ¬õ8áû–©ú,
+Ÿsquid:S1186+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÛÖŽý8±Ø…©ú,

@@ -1,7 +1,7 @@
 
+zsquid:S00116!"VRename this field "STROKEWIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÄó…ıÿÿÿÿ8©Àöˆø,
+Hsquid:S1068*"*Remove this unused "OFFSET" private field.(¬Õü8Ÿ©ïŞù,
 ¥squid:S1186¶"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ó‹œşÿÿÿÿ8ÿ§Ô¹ø,
 ]"squid:SwitchLastCaseIsDefaultCheck™""Add a default case to this switch.(ãÁğ™øÿÿÿÿ8¤€¾Šø,
-Zsquid:S2589m"7Remove this expression which always evaluates to "true"(š‘úıûÿÿÿÿ8ãÁ¡Œø,
-zsquid:S00116!"VRename this field "STROKEWIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÄó…ıÿÿÿÿ8©Àöˆø,
 psquid:S00116*"QRename this field "OFFSET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Õü8•‹ø,
-Hsquid:S1068*"*Remove this unused "OFFSET" private field.(¬Õü8Ÿ©ïŞù,
+Zsquid:S2589m"7Remove this expression which always evaluates to "true"(š‘úıûÿÿÿÿ8ãÁ¡Œø,
