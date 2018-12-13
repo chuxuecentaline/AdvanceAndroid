@@ -1,0 +1,6 @@
+
+Hsquid:S1068",Remove this unused "mContext" private field.(»úÅ¾øÿÿÿÿ
+Hsquid:S1068",Remove this unused "mDivider" private field.(Ô××Ãýÿÿÿÿ
+)squid:S2176"Rename this class.(Ü™ÞŒ
+jsquid:S1450"TRemove the "mText" field and declare it as a local variable in the relevant methods.(ó±ÅZ
+>squid:S1185M"(Remove this method to simply inherit it.(¬¦ß}

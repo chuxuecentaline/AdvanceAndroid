@@ -1,0 +1,11 @@
+
+ˆsquid:UselessImportCheck"XRemove this unused import 'com.example.cherish.salehouse_kotlin.utils.GlobalMenuHelper'.(¥žËéÿÿÿÿÿ8»Ý Ãõ,
+qsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(¼¿Ž¢ÿÿÿÿÿ8¥ÊÍ¿õ,
+tsquid:S00116"URename this field "ed_content" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â§Ë±8ÊÃŠÃõ,
+usquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8³øÌ¿õ,
+vsquid:S1450"XRemove the "ioHandler" field and declare it as a local variable in the relevant methods.(µ§Ï»8—‘µø,
+lsquid:S1192F"IDefine a constant instead of duplicating this literal "practice" 4 times.(ÙÎ‘ãøÿÿÿÿ8ÝãŒµø,
+esquid:S1192D"GDefine a constant instead of duplicating this literal "memory" 3 times.(¬ìð×8ÁÆÃõ,
+jsquid:S1192"LDefine a constant instead of duplicating this literal "preferences" 4 times.(Ï¿êÊ8ÁÆÃõ,
+—squid:UselessImportCheck"mRemove this unused import 'com.example.cherish.salehouse_kotlin.activity.wheel.BuilderNavigationBarActivity'.(î§Ò8»Ý Ãõ,
+Ÿsquid:S1186."€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÛÖŽý8·«ÙÉõ,

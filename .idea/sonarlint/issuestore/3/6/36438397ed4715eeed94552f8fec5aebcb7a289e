@@ -1,0 +1,16 @@
+
+nsquid:S001178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÏºíüÿÿÿÿ
+psquid:S001172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òƒ€8®—‚Óñ,
+isquid:CommentedOutCodeLineA"<This block of commented-out lines of code should be removed.(ŞÍ¯§8®—‚Óñ,
+osquid:S00116"XRename this field "recycler_view" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¼îG
+wsquid:S22939"YReplace the type specification in this constructor call with the diamond operator ("<>").(³î¤ƒ8®—‚Óñ,
+Osquid:S1135>"2Complete the task associated to this TODO comment.(›çán8®—‚Óñ,
+|squid:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(šÏºíüÿÿÿÿ8®—‚Óñ,
+rsquid:S1450"\Remove the "recycler_view" field and declare it as a local variable in the relevant methods.(¯¼îG
+Jsquid:S1481:",Remove this unused "options" local variable.(·ë¨Ü8®—‚Óñ,
+isquid:S001171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñä±
+Ysquid:S1854:";Remove this useless assignment to local variable "options".(·ë¨Ü8®—‚Óñ,
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êÇÒ¼8ïü¦ığ,
+lsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(²›™ä8ÕÛÓñ,
+Usquid:S11354"2Complete the task associated to this TODO comment.(ÿÍ’Úùÿÿÿÿ8®—‚Óñ,
+psquid:S001179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³î¤ƒ8®—‚Óñ,

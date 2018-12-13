@@ -1,0 +1,5 @@
+
+‹"squid:ClassVariableVisibilityCheck"VMake mBackResId a static final constant or non-public and provide accessors if needed.(ŞÀ­8üõÚñ,
+^squid:UselessImportCheck"3Remove this unused import 'android.view.ViewGroup'.(‹îá8Ç¤ğÒñ,
+‡"squid:ClassVariableVisibilityCheck"RMake mTitle a static final constant or non-public and provide accessors if needed.(¡ˆ®8›¿Úñ,
+_squid:UselessImportCheck"4Remove this unused import 'android.content.Context'.(©Ê‰è8ÖÖ­‚ñ,

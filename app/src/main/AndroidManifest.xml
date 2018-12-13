@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cherish.salehouse_kotlin">
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.customView.PedometerActivity" />
+        <activity android:name=".activity.customView.ColorTrackTextActivity" />
+        <activity android:name=".activity.customView.IndicatorColorTrackTextActivity" />
+        <activity android:name=".activity.customView.SlidingMenuActivity" />
+        <activity android:name=".activity.wheel.KotlinLockActivity" />
+        <activity android:name=".activity.customView.BehaviorActivity" />
+        <activity android:name=".activity.customView.RecyclerViewActivity" />
+        <activity android:name=".activity.wheel.BuilderNavigationBarActivity" />
+        <activity android:name=".activity.customView.LoadingAnimalActivity" />
+        <activity android:name=".activity.customView.QqBubbleActivity" />
+        <activity android:name=".activity.customView.ElementAnimalActivity" />
+        <activity android:name=".activity.customView.ElementAnimalDetailActivity" />
+        <activity android:name=".activity.customView.ProgressAnimalActivity" />
+        <activity android:name=".activity.customView.TimeAnimalActivity" />
+        <activity android:name=".activity.customView.AlphabeticalIndexActivity" />
+        <activity android:name=".activity.customView.ViewTouchActivity" />
+        <activity android:name=".activity.customView.QQSlidingMenuActivity" />
+        <activity android:name=".activity.customView.ViewDragHelpActivity" />
+        <activity android:name=".activity.customView.QqSpaceStatusBarActivity" />
+        <activity android:name=".activity.customView.CardMoveActivity" />
+        <activity android:name=".activity.wheel.AlertDialogActivity" />
+        <activity android:name=".activity.wheel.OkHttpEngineActicity" />
+        <activity android:name=".activity.wheel.BuilderFoldNavigationBarActivity" />
+        <activity android:name=".activity.wheel.IocActivity" />
+        <activity android:name=".activity.wheel.DaoActicity" />
+
+        <service android:name=".server.DaoSupportServer" />
+
+        <activity android:name=".activity.chart.MPAndroidChartActivity" />
+        <activity android:name=".activity.pattern.SingletonActivity" />
+        <activity android:name=".activity.customView.ShakeAnimalTextViewActivity" />
+        <activity android:name=".activity.pattern.BuildActivity" />
+        <activity android:name=".activity.pattern.FactoryActivity" />
+        <activity android:name=".activity.pattern.WrapActivity" />
+        <activity android:name=".activity.wheel.AidlActivity" />
+
+        <service android:name="com.example.baselibrary.server.MessageService">
+            <intent-filter>
+                <action android:name="com.example.cherish.aidl.message" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".activity.customView.AudioPlayActivity" />
+        <activity android:name=".activity.wheel.AutoViewPagerActivity" />
+        <activity android:name=".activity.customView.CanvasCicleDrawableActivity" />
+        <activity android:name=".activity.customView.FlowerActivity" />
+        <activity android:name=".activity.customView.YahuNewsLoadActivity" />
+        <activity android:name=".activity.pattern.TemplateActivity" />
+        <activity android:name=".activity.pattern.StrategyActivity" />
+        <activity android:name=".activity.pattern.ProxyActivity" />
+        <activity android:name=".activity.pattern.ObserverActivity" />
+        <activity android:name=".activity.wheel.SplashActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+
+tsquid:S00116""URename this field "SCROLL_MSG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚóÄ‡8¤Ïºù,
+?squid:S1170""!Make this final field static too.(ÚóÄ‡8¤Ïºù,
+Fsquid:S1148F"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8çˆ·ºù,
+]"squid:SwitchLastCaseIsDefaultCheck¤""Add a default case to this switch.(¯·ø‹úÿÿÿÿ8Öİ­Àù,
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Š™‚ƒÿÿÿÿÿ
+osquid:S1301¤"KReplace this "switch" statement by "if" statements to increase readability.(¯·ø‹úÿÿÿÿ8Öİ­Àù,
+csquid:S2147}"ECombine this catch with the one at line 123, which has the same body.(Å¡ß8©Ì¢Áù,
+Fsquid:S1148|"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8©Ì¢Áù,
+Fsquid:S1148~"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8©Ì¢Áù,

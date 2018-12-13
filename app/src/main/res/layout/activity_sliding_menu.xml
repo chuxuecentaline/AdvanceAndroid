@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.cherish.salehouse_kotlin.view.SlidingMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:rightMargin="62dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="40dp"
+            android:paddingLeft="40dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/vv_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/refresh_head" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="14sp"
+                android:layout_toRightOf="@id/vv_menu"
+                android:text="Darren"
+                android:padding="10dp"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="14sp"
+                android:text="退出"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/vv_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="主页内容"
+            android:gravity="center"
+            android:textSize="60sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/white" />
+    </LinearLayout>
+</com.example.cherish.salehouse_kotlin.view.SlidingMenu>
+

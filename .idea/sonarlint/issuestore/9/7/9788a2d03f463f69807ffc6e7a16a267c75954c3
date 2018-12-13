@@ -1,0 +1,6 @@
+
+qsquid:MaximumInheritanceDepth
+"<This class has 8 parents which is greater than 5 authorized.(ðÜ èýÿÿÿÿ8úÁÓñ,
+Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÛÖŽý8»¶Ó€ñ,
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êÇÒ¼8üŠ®ýð,
+usquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8œ‡Ó€ñ,

@@ -1,0 +1,12 @@
+
+ˆsquid:UselessImportCheck"XRemove this unused import 'com.example.cherish.salehouse_kotlin.adapter.MyPagerAdapter'.(ó­øÿÿÿÿ8÷ºŠÏó,
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8­çùĞó,
+Œsquid:UselessImportCheck"aRemove this unused import 'com.example.cherish.salehouse_kotlin.activity.chart.BaseChartFactory'.(É€šŠ8„ŠÕÏó,
+lsquid:UselessImportCheck"ARemove this unused import 'android.preference.PreferenceManager'.(ìùÖõ8Æ¯ïĞó,
+usquid:UselessImportCheck
+"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8Æê€Ñó,
+hsquid:UselessImportCheck"8Remove this unused import 'android.widget.LinearLayout'.(çîšçúÿÿÿÿ8Ä¢½Îó,
+Osquid:S1068'",Remove this unused "mAdapter" private field.(¹öºøÿÿÿÿÿ8ûƒáÏó,
+\squid:UselessImportCheck"1Remove this unused import 'android.app.Activity'.(‡ÊÍÆ8½ÖÑĞó,
+lsquid:UselessImportCheck"<Remove this unused import 'android.support.v4.app.Fragment'.(îñ«úÿÿÿÿ8­çùĞó,
+[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8­çùĞó,

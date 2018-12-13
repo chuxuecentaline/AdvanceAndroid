@@ -1,0 +1,7 @@
+
+nsquid:UselessImportCheck"CRemove this unused import 'android.support.v7.widget.RecyclerView'.(Κασ8Ώ“¶£λ,
+ssquid:UselessImportCheck"HRemove this unused import 'android.support.v7.widget.AppCompatTextView'.(Ή½°Β8Ώ“¶£λ,
+^squid:UselessImportCheck".Remove this unused import 'android.view.View'.(Ψ½­δώÿÿÿÿ8Ώ“¶£λ,
+csquid:UselessImportCheck"8Remove this unused import 'android.view.LayoutInflater'.(ΐ―ΡΗ8Ώ“¶£λ,
+^squid:UselessImportCheck	"3Remove this unused import 'android.view.ViewGroup'.(‹ξα8Ώ“¶£λ,
+isquid:UselessImportCheck"?Remove this unused import 'android.support.annotation.NonNull'.(ΌΕί8Ώ“¶£λ,

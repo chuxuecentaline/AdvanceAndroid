@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.cherish.salehouse_kotlin.view.ViewDragHelpVew xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cherish.salehouse_kotlin.activity.customView.ViewDragHelpActivity">
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="300dp"/>
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/recyclerView"
+       android:background="@android:color/white"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"/>
+
+</com.example.cherish.salehouse_kotlin.view.ViewDragHelpVew>

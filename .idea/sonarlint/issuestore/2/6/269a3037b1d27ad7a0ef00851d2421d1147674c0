@@ -1,0 +1,8 @@
+
+Fsquid:S1185*"(Remove this method to simply inherit it.(ÎÜ±‚8Ó’ú×ñ,
+Fsquid:S1185%"(Remove this method to simply inherit it.(€Òõç8Æöù×ñ,
+usquid:S00117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³½†Ãşÿÿÿÿ8 ¢£ñ,
+5squid:S2176."Rename this class.(ıÚËäıÿÿÿÿ8½ûñ,
+Xsquid:S1172I"5Remove this unused method parameter "navigation_tab".(³½†Ãşÿÿÿÿ8 ¢£ñ,
+psquid:S001160"LRename this field "P" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–Ú´Ùúÿÿÿÿ8ãô“€ñ,
+ƒsquid:S1488N"eImmediately return this expression instead of assigning it to the temporary variable "navigationBar".(¥Í¥İ8÷Ã´ñ,

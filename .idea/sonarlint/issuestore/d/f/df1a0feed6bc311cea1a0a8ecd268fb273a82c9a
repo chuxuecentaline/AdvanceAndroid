@@ -1,0 +1,16 @@
+
+Fsquid:S1068"/Remove this unused "mTv_content" private field.(òüÿÍ
+{squid:S1450"_Remove the "nestedScrollView" field and declare it as a local variable in the relevant methods.(›ö§üÿÿÿÿ
+ksquid:S00116"SRename this field "mIv_icon" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÆ’
+qsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(™Õ¹²ùÿÿÿÿ8ã«ƒÓñ,
+zsquid:S1450"\Remove the "app_barLayout" field and declare it as a local variable in the relevant methods.(ÏÁåÅ8ğáÏò,
+zsquid:S1450"WRemove the "tool_bar" field and declare it as a local variable in the relevant methods.(Œ•ğ·úÿÿÿÿ8¡ØÇ¿õ,
+psquid:S00116"XRename this field "app_barLayout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÁåÅ
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êÇÒ¼8À•©ığ,
+usquid:S1450"WRemove the "mIv_icon" field and declare it as a local variable in the relevant methods.(àÆ’8ŸĞ¢ÿò,
+qsquid:S1450"ZRemove the "mTv_content" field and declare it as a local variable in the relevant methods.(òüÿÍ
+wsquid:S00116"SRename this field "tool_bar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ•ğ·úÿÿÿÿ8Òàÿò,
+Jsquid:S1068",Remove this unused "mIv_icon" private field.(àÆ’8ïÎŸÿò,
+nsquid:S00116"VRename this field "mTv_content" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òüÿÍ
+Osquid:S1068"1Remove this unused "app_barLayout" private field.(ÏÁåÅ8çªšÿò,
+Wsquid:S1068"4Remove this unused "nestedScrollView" private field.(›ö§üÿÿÿÿ8Ò¾ÓÏò,

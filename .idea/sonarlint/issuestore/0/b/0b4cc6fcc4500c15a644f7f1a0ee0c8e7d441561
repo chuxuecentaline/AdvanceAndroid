@@ -1,0 +1,7 @@
+
+usquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8±ñ»×ù,
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êÇÒ¼
+rsquid:S00116"SRename this field "iv_touch" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Üï€8òÕäÙù,
+Ÿsquid:S1186'"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÛÖŽý8¼´¼×ù,
+bsquid:UselessImportCheck"2Remove this unused import 'io.reactivex.Flowable'.(©ˆ”çýÿÿÿÿ8Ð«èÚù,
+jsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(îûýáÿÿÿÿÿ

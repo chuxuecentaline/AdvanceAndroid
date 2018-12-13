@@ -1,0 +1,9 @@
+
+usquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8”¤Æ€ñ,
+qsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(÷üùÿÿÿÿ8Ž´üÒñ,
+qsquid:UselessImportCheck"ARemove this unused import 'com.example.baselibrary.ioc.BindView'.(‰Ñ·÷ÿÿÿÿÿ8þäà×ù,
+esquid:UselessImportCheck"5Remove this unused import 'android.widget.ImageView'.(ú¯ëàüÿÿÿÿ8þäà×ù,
+Ÿsquid:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÛÖŽý8Ì€Ç€ñ,
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êÇÒ¼8ªç¡ýð,
+bsquid:S1134"DTake the required action to fix the issue indicated by this comment.(ö‘—ê8—®£ýð,
+qsquid:UselessImportCheck	"FRemove this unused import 'com.example.baselibrary.ioc.BindViewUtils'.(’´ä¨8‘”á×ù,

@@ -1,0 +1,7 @@
+
+osquid:S1450""SRemove the "left" field and declare it as a local variable in the relevant methods.(¨¸©ëûÿÿÿÿ
+isquid:S1450#"RRemove the "top" field and declare it as a local variable in the relevant methods.(Ï×æ
+Csquid:S1659",Declare "mProgressPaint" on a separate line.(¤•÷¢
+dsquid:UselessImportCheck	";Remove this unused import 'android.net.LocalSocketAddress'.(¹œşÿÿÿÿÿ
+osquid:S1450 "YRemove the "mStepAngle" field and declare it as a local variable in the relevant methods.(Ş¿Š^
+?squid:S1659"(Declare "mTextPaint" on a separate line.(¤•÷¢

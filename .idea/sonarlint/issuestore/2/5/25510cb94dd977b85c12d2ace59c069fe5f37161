@@ -1,0 +1,7 @@
+
+rsquid:S00116"SRename this field "RMessage" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÌ€Ò8şÖú®ù,
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ìë¿Æÿÿÿÿÿ8áÿ®ù,
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê«èæÿÿÿÿÿ8áÿ®ù,
+osquid:S00116"PRename this field "RCode" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏŞ½á8Á™ü®ù,
+psquid:S00116"QRename this field "Result" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñªƒ¦8ÑËü®ù,
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8 Â¸ù,

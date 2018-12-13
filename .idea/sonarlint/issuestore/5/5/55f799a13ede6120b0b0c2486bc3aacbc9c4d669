@@ -1,0 +1,7 @@
+
+^squid:UselessImportCheck"4Remove this unused import 'android.graphics.Bitmap'.(¾ì8ş½Ç®ò,
+`squid:UselessImportCheck"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8ìÛó¯ò,
+]squid:UselessImportCheck	"-Remove this unused import 'okhttp3.Response'.(Ï‚ñ—øÿÿÿÿ8ìÛó¯ò,
+`squid:UselessImportCheck"0Remove this unused import 'android.util.Config'.(¶ Ëÿÿÿÿÿ8––æ¯ò,
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ò×‹Î8Úö™±ò,
+]squid:S1118":Add a private constructor to hide the implicit public one.(“›œøÿÿÿÿ8¿Û®ò,

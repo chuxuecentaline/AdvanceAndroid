@@ -1,0 +1,8 @@
+
+[squid:S1134"DTake the required action to fix the issue indicated by this comment.(€ÎÿÍ
+^squid:UselessImportCheck".Remove this unused import 'android.view.View'.(Ø½­äşÿÿÿÿ8åªÀùì,
+dsquid:UselessImportCheck	"4Remove this unused import 'android.widget.TextView'.(„Ë‚ˆÿÿÿÿÿ8ô“×úì,
+isquid:UselessImportCheck"?Remove this unused import 'android.support.v4.view.ViewCompat'.(ÿÎÃ8´ÂÉùì,
+nsquid:UselessImportCheck"CRemove this unused import 'com.example.cherish.salehouse_kotlin.R'.(€â¾8ô“×úì,
+squid:UselessImportCheck"TRemove this unused import 'com.example.cherish.salehouse_kotlin.frame.NewsFragment'.(µÛê™8ÎÃùì,
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ô“×úì,

@@ -1,0 +1,5 @@
+
+Qsquid:S1444".Make this "public static instance" field final(à™óŠøÿÿÿÿ8ºº’Ùò,
+psquid:S00117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß¬’·8¨é™Ùò,
+usquid:UselessImportCheck"ERemove this unused import 'android.database.sqlite.SQLiteOpenHelper'.(©ÑÏ™üÿÿÿÿ8œø‡Øò,
+Ž"squid:ClassVariableVisibilityCheck"TMake instance a static final constant or non-public and provide accessors if needed.(à™óŠøÿÿÿÿ8ºº’Ùò,

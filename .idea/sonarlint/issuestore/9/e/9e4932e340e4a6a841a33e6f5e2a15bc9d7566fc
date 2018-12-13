@@ -1,0 +1,5 @@
+
+Hsquid:S1068",Remove this unused "mContext" private field.(»úÅ¾øÿÿÿÿ
+ssquid:S1450"WRemove the "mContext" field and declare it as a local variable in the relevant methods.(»úÅ¾øÿÿÿÿ
+qsquid:UselessImportCheck"HRemove this unused import 'android.support.constraint.ConstraintLayout'.(›×âıÿÿÿÿ
+osquid:S00116"RRename this field "tv_tips" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÒ¢¥øÿÿÿÿ

@@ -1,0 +1,10 @@
+
+Gsquid:S1148¤"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¶ßÀÖò,
+Gsquid:S1148ˆ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Îë€Õò,
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(ÊĞËÓ8ª•ÚÓò,
+psquid:UselessImportCheck"ERemove this unused import 'java.util.MissingFormatArgumentException'.(›ÛØ¤8ƒ©ÜÔò,
+Gsquid:S1148Š"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Îë€Õò,
+Gsquid:S1148"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ8™´»Öò,
+^squid:UselessImportCheck"4Remove this unused import 'android.widget.CheckBox'.(Ùáb8˜Öò,
+esquid:S00112j"FDefine and throw a dedicated exception instead of using a generic one.(ó®€Ù8èØ´Õò,
+Fsquid:S1148g"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8×«±Õò,

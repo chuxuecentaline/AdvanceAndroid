@@ -1,0 +1,6 @@
+
+usquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8ÐÍÎ€ñ,
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êÇÒ¼
+¤squid:S11866"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(µžµöùÿÿÿÿ8¡úÐ€ñ,
+ksquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(¡åþ`8ÂÜ‰Óñ,
+Ÿsquid:S1186;"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×ÝŠÎ8¡úÐ€ñ,

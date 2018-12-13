@@ -1,0 +1,6 @@
+
+Qsquid:S1133*"5Do not forget to remove this deprecated code someday.(ø™ñŒþÿÿÿÿ
+Psquid:MissingDeprecatedCheck"(Add the missing @deprecated Javadoc tag.(ý÷ ¸
+Usquid:MissingDeprecatedCheck*"(Add the missing @deprecated Javadoc tag.(ø™ñŒþÿÿÿÿ
+Lsquid:S1133"5Do not forget to remove this deprecated code someday.(ý÷ ¸
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(áâë¼

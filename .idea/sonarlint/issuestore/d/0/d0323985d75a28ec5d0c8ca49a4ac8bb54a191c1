@@ -1,0 +1,6 @@
+
+dsquid:S1192F"FDefine a constant instead of duplicating this literal "cache" 3 times.(¯Ê¦ú8˜´¶µø,
+9squid:S3626"Remove this redundant jump.(ûÁÝ…8˜´¶µø,
+Wsquid:S1118!":Add a private constructor to hide the implicit public one.(ŒÂˆt8˜´¶µø,
+Lsquid:S1172".Remove this unused method parameter "context".(ï°Íñ8˜´¶µø,
+¤squid:S1186@"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ßË¤ºûÿÿÿÿ8˜´¶µø,

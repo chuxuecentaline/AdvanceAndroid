@@ -1,0 +1,7 @@
+
+ssquid:UselessImportCheck"CRemove this unused import 'com.example.baselibrary.http.HttpUtils'.(Óäÿüÿÿÿÿ8Î«–¹ù,
+bsquid:S1134"DTake the required action to fix the issue indicated by this comment.(€ÎÿÍ8ôİ¥¹ù,
+|squid:UselessImportCheck	"QRemove this unused import 'com.example.cherish.salehouse_kotlin.bean.BannerBean'.(ÃÆ‡ì8Î…ÒÁù,
+nsquid:UselessImportCheck">Remove this unused import 'com.google.gson.reflect.TypeToken'.(İªıñøÿÿÿÿ8ì¾Áù,
+Vsquid:UselessImportCheck"+Remove this unused import 'java.io.Reader'.(µû¨é8ôİ¥¹ù,
+squid:UselessImportCheck"QRemove this unused import 'com.example.baselibrary.CarouselViewPager.BannerView'.(¢ÅƒÍıÿÿÿÿ8Ö¦ÄÁù,

@@ -1,0 +1,26 @@
+
+esquid:UselessImportCheck":Remove this unused import 'android.animation.AnimatorSet'.(ìµ8¨¶¥…ú,
+Hsquid:S1068,"*Remove this unused "OFFSET" private field.(©âÀÌ8¿‚Ãâù,
+Fsquid:S1185M"(Remove this method to simply inherit it.(§ó°›8¶±îƒú,
+nsquid:S00100š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«Ø¹8Ï¢‰…ú,
+nsquid:UselessImportCheck"CRemove this unused import 'android.view.animation.RotateAnimation'.(€¦Ôó8¯•Á‚ú,
+asquid:UselessImportCheck"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8¨¶¥…ú,
+zsquid:UselessImportCheck"JRemove this unused import 'android.view.animation.DecelerateInterpolator'.(ÑßÜüüÿÿÿÿ8©—¥…ú,
+isquid:S1192I"KDefine a constant instead of duplicating this literal "--------T:" 5 times.(Şç»ì8®×Áú,
+asquid:UselessImportCheck"7Remove this unused import 'android.animation.Animator'.(İŸéN8¨¶¥…ú,
+_squid:UselessImportCheck"4Remove this unused import 'java.lang.reflect.Array'.(‡¡É˜8Ë˜ë‚ú,
+qsquid:UselessImportCheck"FRemove this unused import 'android.animation.AnimatorListenerAdapter'.(®ÃÙ»8¸øóƒú,
+ysquid:S1450-"VRemove the "mParams" field and declare it as a local variable in the relevant methods.(¯„¤¾üÿÿÿÿ8ùÇ³ú,
+ssquid:S1450,"URemove the "OFFSET" field and declare it as a local variable in the relevant methods.(©âÀÌ8¹ûÁú,
+Jsquid:S1481"+Remove this unused "params" local variable.(üÀº«8ÊÁ¦…ú,
+esquid:UselessImportCheck":Remove this unused import 'android.transition.Transition'.(ª§‡á8„¾Ïâù,
+csquid:UselessImportCheck
+"3Remove this unused import 'android.graphics.Color'.(øãíòşÿÿÿÿ8“ÔÔäù,
+[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8¨¶¥…ú,
+isquid:UselessImportCheck">Remove this unused import 'android.view.ViewPropertyAnimator'.(¦“œã8Ó¡Ü‚ú,
+psquid:S00116,"QRename this field "OFFSET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©âÀÌ8Ãäààù,
+^squid:UselessImportCheck"3Remove this unused import 'android.view.ViewGroup'.(‹îá8ÛÒÇ„ú,
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8‹İê‚ú,
+Ysquid:S1854":Remove this useless assignment to local variable "params".(üÀº«8ÊÁ¦…ú,
+nsquid:UselessImportCheck"CRemove this unused import 'com.example.cherish.salehouse_kotlin.R'.(€â¾8š—Š„ú,
+bsquid:UnusedPrivateMethod¦"0Remove this unused private "bzeirAnimal" method.(¥Ïüùÿÿÿÿ8äõå†ú,

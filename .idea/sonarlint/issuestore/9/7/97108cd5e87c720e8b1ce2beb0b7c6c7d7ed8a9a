@@ -1,0 +1,9 @@
+
+jsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(®»‡Ü
+Msquid:S2696ó"6Make the enclosing method "static" or remove this set.(º‹û!
+bsquid:UselessImportCheck"?Remove this unused import 'android.support.annotation.NonNull'.(º≈ﬂ
+wsquid:S3008 "`Rename this field "BASE_ITEM_TYPE_HEADER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í≈Ôﬂ
+Ssquid:S2696é"6Make the enclosing method "static" or remove this set.(âí€‰˘ˇˇˇˇ
+Zsquid:UnusedPrivateMethodÜ"/Remove this unused private "getAdapter" method.(πæ“Ñ¸ˇˇˇˇ
+|squid:S3008""`Rename this field "BASE_ITEM_TYPE_FOOTER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®©ø≥¯ˇˇˇˇ
+>squid:S1068"'Remove this unused "TAG" private field.(®»‡Ü

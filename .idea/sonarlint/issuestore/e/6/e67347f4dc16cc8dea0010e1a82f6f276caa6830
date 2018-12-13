@@ -1,0 +1,8 @@
+
+^squid:UselessImportCheck"3Remove this unused import 'android.view.ViewGroup'.(‹îá8øğÜ“ì,
+tsquid:S1450"VRemove the "mHeight" field and declare it as a local variable in the relevant methods.(šÏ£8ç¤¶§ë,
+Ksquid:S1185L"(Remove this method to simply inherit it.(Ö¼Ùıÿÿÿÿ8É˜ù“ì,
+\"squid:SwitchLastCaseIsDefaultCheckR""Add a default case to this switch.(ãÁğ™øÿÿÿÿ8âç­şë,
+nsquid:UselessImportCheck"CRemove this unused import 'android.animation.PropertyValuesHolder'.(° Üâ8ğ­Ğ©ó,
+Hsquid:S1068"*Remove this unused "mMoveY" private field.(à´ğã8¿½¸şë,
+ssquid:S1450"URemove the "mMoveY" field and declare it as a local variable in the relevant methods.(à´ğã8¿½¸şë,

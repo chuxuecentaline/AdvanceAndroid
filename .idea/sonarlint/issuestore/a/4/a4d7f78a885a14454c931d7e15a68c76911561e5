@@ -1,0 +1,10 @@
+
+`squid:UselessImportCheck"5Remove this unused import 'android.util.SparseArray'.(ü§¯¾8§‹íóõ,
+Zsquid:S1854~"<Remove this useless assignment to local variable "position".(ÆÖğÎ8¼ôöõ,
+9squid:S3626_"Remove this redundant jump.(ûÁİ…8Ãßìõõ,
+psquid:UselessImportCheck"@Remove this unused import 'android.support.annotation.Nullable'.(Ö‹øïüÿÿÿÿ8§‹íóõ,
+‚squid:UselessImportCheck"RRemove this unused import 'com.example.cherish.salehouse_kotlin.utils.ToastUtils'.(¸É‹©şÿÿÿÿ8¸¦ãõõ,
+nsquid:UselessImportCheck"CRemove this unused import 'com.example.cherish.salehouse_kotlin.R'.(€â¾8§‹íóõ,
+_squid:UselessImportCheck"4Remove this unused import 'android.content.Context'.(©Ê‰è8§‹íóõ,
+csquid:UselessImportCheck	"8Remove this unused import 'android.view.LayoutInflater'.(À¯ÑÇ8§‹íóõ,
+9squid:S3626]"Remove this redundant jump.(ûÁİ…8Ãßìõõ,

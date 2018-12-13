@@ -1,0 +1,7 @@
+
+Nsquid:S1066©"/Merge this if statement with the enclosing one.(Ú›«ç8¼œôõ,
+wsquid:S1450"[Remove the "mLoadingView" field and declare it as a local variable in the relevant methods.(®Œ•ãÿÿÿÿÿ
+Lsquid:S1068"0Remove this unused "mLoadingView" private field.(®Œ•ãÿÿÿÿÿ
+Vsquid:S3398¦">Move this method into the anonymous class declared at line 95.(î®¥
+Fsquid:S1659"*Declare "mLoadingView" on a separate line.(®Œ•ãÿÿÿÿÿ
+Psquid:S2387"4"mAdapter" is the name of a field in "RecyclerView".(î×îúÿÿÿÿ

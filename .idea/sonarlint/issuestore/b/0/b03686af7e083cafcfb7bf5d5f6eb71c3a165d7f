@@ -1,0 +1,5 @@
+
+squid:S1450"cRemove the "bottomNavigationView" field and declare it as a local variable in the relevant methods.(ê¥ÎÚ8£ ªŸë,
+jsquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(³ã×šøÿÿÿÿ
+usquid:S3776)"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(†’àúùÿÿÿÿ8÷…Ë¡ë,
+W"squid:SwitchLastCaseIsDefaultCheckc""Add a default case to this switch.(¦¦¢†8œ€ñ ë,

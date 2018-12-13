@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="河西区"
+        android:textColor="#333333"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_money"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/bg_orange"
+        android:padding="10dp"
+        android:text="37406元/平"
+        android:textColor="#FF9913"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/tv_name"
+        app:layout_constraintLeft_toRightOf="@id/tv_name"
+        app:layout_constraintRight_toLeftOf="@+id/tv_lab" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_lab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="环比上月"
+        android:textColor="#160000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@id/tv_money"
+        app:layout_constraintLeft_toRightOf="@id/tv_money"
+        app:layout_constraintRight_toLeftOf="@+id/lab2"
+        app:layout_constraintTop_toTopOf="@id/tv_money" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/lab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="0.6%"
+        android:textColor="#34D18F"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/tv_lab"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/tv_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_money" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,4 @@
+
+psquid:UselessImportCheck"@Remove this unused import 'com.example.baselibrary.IntentExtra'.(¤‹úØıÿÿÿÿ8öõªıò,
+vsquid:S1450"SRemove the "mDao" field and declare it as a local variable in the relevant methods.(…’ó³üÿÿÿÿ8æ½óøò,
+tsquid:S1450"WRemove the "mFactory" field and declare it as a local variable in the relevant methods.(Ï­¡48òÜûøò,

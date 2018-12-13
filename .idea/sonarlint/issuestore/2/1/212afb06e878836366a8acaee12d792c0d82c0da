@@ -1,0 +1,13 @@
+
+Ksquid:S1481"(Remove this unused "dir" local variable.(õ³†øÿÿÿÿ8­¨¦Áõ,
+csquid:S2259B"@A "NullPointerException" could be thrown; "bw" is nullable here.(»¬ÔŠüÿÿÿÿ8·–ØÁõ,
+Fsquid:S1148n"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÏğâÁõ,
+¤squid:S1186M"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ãä¡Œÿÿÿÿÿ8ƒÌ‡Áõ,
+Fsquid:S1148F"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ºê×Áõ,
+Msquid:S20939"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8àÏÓÁõ,
+¤squid:S1186\"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ßË¤ºûÿÿÿÿ8ƒÌ‡Áõ,
+:squid:S1643i"Use a StringBuilder instead.(ƒí¼Ã8„ìÁõ,
+jsquid:UselessImportCheck	":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ8ã¬ìÁõ,
+Ÿsquid:S1186R"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Àı€Å8ƒÌ‡Áõ,
+Fsquid:S1148?"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8­ÏÁõ,
+¤squid:S1186W"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(é—Ïëıÿÿÿÿ8ƒÌ‡Áõ,

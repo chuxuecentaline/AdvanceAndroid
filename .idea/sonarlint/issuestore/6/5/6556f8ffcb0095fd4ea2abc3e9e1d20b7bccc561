@@ -1,0 +1,6 @@
+
+Fsquid:S19056"(Remove this unnecessary cast to "float".(³Öä8ÎÊÖ€ñ,
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êÇÒ¼8Äñ¯ığ,
+qsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(Êñ×¹ÿÿÿÿÿ8íŠ‘Óñ,
+_squid:UselessImportCheck"4Remove this unused import 'android.util.TypedValue'.(é¸Óû8Ÿ°‚ë,
+usquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8¦…Õ€ñ,

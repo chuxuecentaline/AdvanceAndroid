@@ -1,0 +1,8 @@
+
+esquid:UselessImportCheck"5Remove this unused import 'android.widget.ImageView'.(ú¯ëàüÿÿÿÿ8ïìõºù,
+¤squid:S1186F"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(™Î«şÿÿÿÿ8şš¾ù,
+^squid:UselessImportCheck	"3Remove this unused import 'android.view.ViewGroup'.(‹îá8û‰¹¾ù,
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Š™‚ƒÿÿÿÿÿ
+vsquid:S00116"WRename this field "ll_indicator" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡”¢¬8Ïİú±ù,
+^squid:UselessImportCheck".Remove this unused import 'android.view.View'.(Ø½­äşÿÿÿÿ8„¢Ç¼ù,
+¤squid:S11868"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ø´´øÿÿÿÿ8¯£œ¾ù,

@@ -1,0 +1,23 @@
+
+Tsquid:S1068*"1Remove this unused "mLayoutParams" private field.(°Ûæ¥şÿÿÿÿ8Ï‘Ÿõ,
+lsquid:UselessImportCheck"<Remove this unused import 'io.reactivex.functions.Consumer'.(áè—Õüÿÿÿÿ8·ÒÎ¢õ,
+Esquid:S1068-"(Remove this unused "mSb2" private field.(îÉİ8ÁãÕ¢õ,
+usquid:S1450,"RRemove the "mSb" field and declare it as a local variable in the relevant methods.(ïÕ——ÿÿÿÿÿ8ÁãÕ¢õ,
+psquid:S1450-"SRemove the "mSb2" field and declare it as a local variable in the relevant methods.(îÉİ8ÁãÕ¢õ,
+ysquid:UselessImportCheck"NRemove this unused import 'io.reactivex.android.schedulers.AndroidSchedulers'.(¶çş 8·ÒÎ¢õ,
+psquid:UselessImportCheck"FRemove this unused import 'android.view.animation.BounceInterpolator'.(‰èÆO8ÆÈ õ,
+nsquid:UselessImportCheck"CRemove this unused import 'android.animation.PropertyValuesHolder'.(° Üâ8ÄŞ§õ,
+bsquid:UselessImportCheck"2Remove this unused import 'io.reactivex.Flowable'.(©ˆ”çıÿÿÿÿ8·ÒÎ¢õ,
+^squid:UselessImportCheck".Remove this unused import 'android.view.View'.(Ø½­äşÿÿÿÿ8·ÒÎ¢õ,
+squid:UselessImportCheck"TRemove this unused import 'android.view.animation.AccelerateDecelerateInterpolator'.(Ô¸ÿÜ8ÄŞ§õ,
+Hsquid:S1481b"*Remove this unused "entry" local variable.(Œ½·8—¹í¢õ,
+qsquid:UselessImportCheck"FRemove this unused import 'android.animation.AnimatorListenerAdapter'.(®ÃÙ»8øğİŸõ,
+osquid:UselessImportCheck"?Remove this unused import 'android.animation.TimeInterpolator'.(±·àµıÿÿÿÿ8ÄŞ§õ,
+esquid:UselessImportCheck":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™ş8·ÒÎ¢õ,
+xsquid:UselessImportCheck
+"HRemove this unused import 'android.support.constraint.ConstraintLayout'.(›×âıÿÿÿÿ8Ï®Êõ,
+Jsquid:S1068,"'Remove this unused "mSb" private field.(ïÕ——ÿÿÿÿÿ8ÁãÕ¢õ,
+^squid:UselessImportCheck"3Remove this unused import 'android.view.ViewGroup'.(‹îá8·ê°õ,
+psquid:S1450+"RRemove the "num" field and declare it as a local variable in the relevant methods.(‹…’8ßëÒõ,
+squid:S1450*"\Remove the "mLayoutParams" field and declare it as a local variable in the relevant methods.(°Ûæ¥şÿÿÿÿ8Ï‘Ÿõ,
+‚squid:UselessImportCheck"RRemove this unused import 'com.example.cherish.salehouse_kotlin.utils.ToastUtils'.(¸É‹©şÿÿÿÿ8ñÖç¢õ,

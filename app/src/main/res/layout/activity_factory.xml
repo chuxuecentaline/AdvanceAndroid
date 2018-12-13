@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cherish.salehouse_kotlin.activity.pattern.FactoryActivity">
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:hint="请输入存储数据"
+        android:textSize="13sp"
+        android:id="@+id/ed_content"
+        android:maxLines="50"
+        android:gravity="left"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/grey"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="0dp"
+        android:id="@+id/save"
+        android:textSize="14sp"
+        android:text="sure"
+        android:gravity="center"
+        android:padding="10dp"
+        app:layout_constraintRight_toLeftOf="@+id/look"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="0dp"
+        android:id="@+id/look"
+        android:textSize="14sp"
+        android:text="Look"
+        android:gravity="center"
+        android:padding="10dp"
+        app:layout_constraintLeft_toRightOf="@id/save"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@color/grey"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="wrap_content" />
+
+</android.support.constraint.ConstraintLayout>

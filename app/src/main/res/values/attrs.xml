@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlidingMenu">
+        <attr name="rightMargin" format="dimension"></attr>
+    </declare-styleable>
+    <declare-styleable name="ProgressAnimalStyle">
+        <attr name="default_color" format="color"></attr>
+        <attr name="progress_color" format="color"></attr>
+        <attr name="radius" format="dimension"></attr>
+        <attr name="step_text_size" format="dimension"></attr>
+        <attr name="progress_stroke_width" format="dimension"></attr>
+    </declare-styleable>
+    <declare-styleable name="DotView">
+        <attr name="dotColor" format="color"></attr>
+    </declare-styleable>
+</resources>

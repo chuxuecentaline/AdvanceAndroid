@@ -1,0 +1,7 @@
+
+.squid:S2176>"Rename this class.(Â×žÖúÿÿÿÿ
+isquid:S00114"QRename this interface name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(©ŠÉ‡
+osquid:S00116?"RRename this field "iv_icon" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ð…­Òûÿÿÿÿ
+rsquid:S00116@"URename this field "tv_content" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ÁÐ…øÿÿÿÿ
+esquid:UselessImportCheck"<Remove this unused import 'android.annotation.SuppressLint'.(ÕƒóÏûÿÿÿÿ
+Wsquid:UselessImportCheck"3Remove this unused import 'java.util.zip.Inflater'.(„ËÅ¯

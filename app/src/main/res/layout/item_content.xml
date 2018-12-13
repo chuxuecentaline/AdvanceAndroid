@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:id="@+id/tv_content"
+        android:lineSpacingExtra="5dp"
+        android:padding="5dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp" />
+
+</android.support.constraint.ConstraintLayout>

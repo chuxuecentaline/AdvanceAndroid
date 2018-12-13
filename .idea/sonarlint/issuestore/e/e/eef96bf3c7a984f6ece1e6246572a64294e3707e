@@ -1,0 +1,18 @@
+
+Gsquid:S1148Ÿ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÅÕ’şò,
+Zsquid:S2696‹"6Make the enclosing method "static" or remove this set.(™¹“Şıÿÿÿÿ8°Ÿışò,
+Gsquid:S1148á"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÅÕ’şò,
+}squid:S1149,"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰8‹Ôÿò,
+asquid:S1155^">Use isEmpty() to check whether the collection is empty or not.(˜äÕøÿÿÿÿ8ÅÕ’şò,
+qsquid:S3776¨"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(š«Äê8£Îşò,
+}squid:S1488î"^Immediately return this expression instead of assigning it to the temporary variable "method".(ŒíŠ8ÅÕ’şò,
+msquid:S00116"NRename this field "TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒµ¦İ8ûêÉÙò,
+usquid:UselessImportCheck"ERemove this unused import 'android.database.sqlite.SQLiteOpenHelper'.(©ÑÏ™üÿÿÿÿ8Ô§©Úò,
+Usquid:S2696Œ"6Make the enclosing method "static" or remove this set.(‰÷Ÿı8°Ÿışò,
+Zsquid:S2696¡"6Make the enclosing method "static" or remove this set.(°Ê€×ûÿÿÿÿ8ÅÕ’şò,
+fsquid:S00112ë"FDefine and throw a dedicated exception instead of using a generic one.(Â¶İÀ8“Üˆÿò,
+“squid:S1319G"pThe type of the "datas" object should be an interface such as "List" rather than the implementation "ArrayList".(Ì¤¬«øÿÿÿÿ8Å”šøò,
+psquid:UselessImportCheck"@Remove this unused import 'android.support.annotation.Nullable'.(Ö‹øïüÿÿÿÿ8›õÔıò,
+w
+squid:S135³"YReduce the total number of break and continue statements in this loop to use at most one.(¼ßğ¥8ÅÕ’şò,
+Tsquid:S2696¢"6Make the enclosing method "static" or remove this set.(¿Ôõu8ÅÕ’şò,

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#f5f5f5"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:padding="15dp"
+        android:id="@+id/tv_title"
+        app:layout_constraintTop_toBottomOf="@id/view"
+        android:background="@android:color/white"
+        android:text="8月各板块成交均价"
+        android:textColor="#333333"
+        android:layout_height="wrap_content" />
+    <View
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f5f5f5"/>
+</android.support.constraint.ConstraintLayout>

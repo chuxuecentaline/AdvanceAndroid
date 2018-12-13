@@ -1,0 +1,7 @@
+
+>squid:S1659"'Declare "mListView" on a separate line.(…Åˆ
+U"squid:SwitchLastCaseIsDefaultCheckE""Add a default case to this switch.(¯·ø‹úÿÿÿÿ
+hsquid:UselessImportCheck"?Remove this unused import 'android.support.annotation.BoolRes'.(ùë·üúÿÿÿÿ
+bsquid:UselessImportCheck"?Remove this unused import 'android.support.v4.view.ViewCompat'.(ÿÎÃ
+>squid:S1185v"(Remove this method to simply inherit it.(·ˆ[
+gsquid:S1301E"KReplace this "switch" statement by "if" statements to increase readability.(¯·ø‹úÿÿÿÿ

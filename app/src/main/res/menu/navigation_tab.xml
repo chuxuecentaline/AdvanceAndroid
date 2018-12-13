@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_more"
+        android:title="@string/more"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/tab_home"
+                android:icon="@drawable/ic_home"
+                android:title="自定义控件" />
+
+            <item
+                android:id="@+id/tab_news"
+                android:icon="@drawable/ic_message"
+                android:title="设计模式" />
+
+            <item
+                android:id="@+id/tab_store"
+                android:icon="@drawable/ic_storage"
+                android:title="订单" />
+
+            <item
+                android:id="@+id/tab_mine"
+                android:icon="@drawable/ic_person"
+                android:title="我的" />
+            <item
+                android:id="@+id/tab_share"
+                android:icon="@drawable/ic_share"
+                android:title="分享" />
+        </menu>
+
+    </item>
+
+
+</menu>
