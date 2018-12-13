@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:background="@android:color/darker_gray">
 
-    <com.example.cherish.salehouse_kotlin.view.ParallaxViewPager
+    <com.example.cherish.salehouse_kotlin.view.parallax.ParallaxViewPager
         android:id="@+id/parallax_vp"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
@@ -35,7 +35,7 @@
             android:textSize="21sp"
             tools:ignore="UnusedAttribute" />
 
-        <com.cleveroad.slidingtutorial.TutorialPageIndicator
+        <com.example.cherish.salehouse_kotlin.view.TutorialPageIndicator
             android:id="@+id/indicatorCustom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -13,4 +13,16 @@
     <declare-styleable name="DotView">
         <attr name="dotColor" format="color"></attr>
     </declare-styleable>
+
+    <!--视差引导页属性-->
+    <attr name="outTranslateX" format="float"></attr>
+    <attr name="outTranslateY" format="float"></attr>
+    <attr name="inTranslateX" format="float"></attr>
+    <attr name="inTranslateY" format="float"></attr>
+    <attr name="outScaleX" format="float"></attr>
+    <attr name="outScale" format="float"></attr>
+    <attr name="outAlpha" format="float"></attr>
+    <attr name="inAlpha" format="float"></attr>
+    <attr name="outRotate" format="float"></attr>
+    <attr name="inRotate" format="float"></attr>
 </resources>

@@ -3,4 +3,7 @@
     <color name="grey">#959595</color>
     <color name="holo_blue">#ff0099cc</color>
     <color name="light_grey">#F5F5F5</color>
+    <color name="orange_dark">#ffff8800</color>
+    <color name="green_dark">#ff669900</color>
+    <color name="blue_dark">#ff0099cc</color>
 </resources>

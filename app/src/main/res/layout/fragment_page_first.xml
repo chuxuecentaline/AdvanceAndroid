@@ -5,7 +5,7 @@
     android:id="@+id/rootFirstPage"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:background="@android:color/holo_orange_dark"
+    android:background="@color/orange_dark"
     tools:ignore="ContentDescription">
 
     <ImageView
@@ -14,6 +14,10 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:src="@drawable/s_0_1"
+        app:outTranslateX="0.3"
+        app:inTranslateX="0.3"
+        app:outAlpha="0.3"
+        app:inAlpha="1.0"
         app:layout_heightPercent="35%"
         app:layout_widthPercent="50%" />
 
@@ -25,6 +29,10 @@
         android:layout_alignParentRight="true"
         android:src="@drawable/s_0_2"
         app:layout_heightPercent="10%"
+        app:outTranslateX="0.3"
+        app:inTranslateX="0.3"
+        app:outAlpha="0.3"
+        app:inAlpha="1.0"
         app:layout_marginRightPercent="12%"
         app:layout_marginTopPercent="27%"
         app:layout_widthPercent="12%" />
@@ -36,11 +44,15 @@
         android:layout_height="wrap_content"
         android:src="@drawable/s_0_3"
         app:layout_heightPercent="25%"
+        app:outTranslateX="0.3"
+        app:inTranslateX="0.3"
         app:layout_marginLeftPercent="14%"
         app:layout_marginTopPercent="49%"
         app:layout_widthPercent="30%" />
 
     <ImageView
+        app:outTranslateX="0.3"
+        app:inTranslateX="0.3"
         android:id="@+id/ivFourthImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -75,6 +87,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/s_0_7"
+        app:outTranslateX="0.5"
+        app:inTranslateX="0.5"
+        app:inRotate="0.3"
+        app:outRotate="0.3"
         app:layout_heightPercent="8%"
         app:layout_marginLeftPercent="14%"
         app:layout_marginTopPercent="25%"

@@ -5,7 +5,7 @@
     android:id="@+id/rootSecondPage"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:background="@android:color/holo_green_dark"
+   android:background="@color/blue_dark"
     tools:ignore="ContentDescription">
 
     <ImageView
@@ -67,6 +67,10 @@
         android:layout_height="wrap_content"
         android:src="@drawable/s_1_7"
         app:layout_heightPercent="8%"
+        app:outTranslateX="0.4"
+        app:inTranslateX="0.3"
+        app:inTranslateY="0.3"
+        app:outTranslateY="0.2"
         app:layout_marginLeftPercent="22%"
         app:layout_marginTopPercent="35%"
         app:layout_widthPercent="17%" />
@@ -77,6 +81,10 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:src="@drawable/s_1_5"
+        app:outTranslateX="0.1"
+        app:inTranslateX="0.1"
+        app:inTranslateY="0.2"
+        app:outTranslateY="0.2"
         app:layout_heightPercent="10%"
         app:layout_marginTopPercent="33%"
         app:layout_widthPercent="15%" />
@@ -87,6 +95,12 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:src="@drawable/s_1_8"
+        app:outTranslateX="0.3"
+        app:inTranslateX="0.3"
+        app:inTranslateY="0.2"
+        app:outTranslateY="0.2"
+        app:inAlpha="1.0"
+        app:outAlpha="0.3"
         app:layout_heightPercent="10%"
         app:layout_marginTopPercent="22%"
         app:layout_widthPercent="25%" />

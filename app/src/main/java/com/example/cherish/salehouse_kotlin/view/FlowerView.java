@@ -4,13 +4,20 @@ import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
+import android.animation.TimeInterpolator;
 import android.animation.TypeEvaluator;
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.graphics.PointF;
 import android.graphics.drawable.Drawable;
+import android.support.v4.view.animation.FastOutLinearInInterpolator;
 import android.util.AttributeSet;
 import android.view.ViewGroup;
+import android.view.animation.AccelerateDecelerateInterpolator;
+import android.view.animation.AccelerateInterpolator;
+import android.view.animation.DecelerateInterpolator;
+import android.view.animation.Interpolator;
+import android.view.animation.LinearInterpolator;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
@@ -30,7 +37,8 @@ public class FlowerView extends RelativeLayout {
      2.随机数的使用；
      3.插补器的使用；
      4.属性动画的一些高级用法
-     5.贝塞尔曲线应用到属性动画*/ List<Drawable> mDrawables = new ArrayList<>();
+     5.贝塞尔曲线应用到属性动画*/
+    List<Drawable> mDrawables = new ArrayList<>();
     private LayoutParams mParams;
     private int mWidth;
     private int mHeight;
@@ -38,6 +46,7 @@ public class FlowerView extends RelativeLayout {
 
     private int mDrawableWidth;
     private int mDrawableHeight;
+    private Interpolator[] mInterpolators;
 
     public FlowerView(Context context) {
         this(context, null);
@@ -49,7 +58,6 @@ public class FlowerView extends RelativeLayout {
 
     public FlowerView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-
         init(context);
 
     }
@@ -62,6 +70,8 @@ public class FlowerView extends RelativeLayout {
             Drawable drawable = getContext().getResources().getDrawable(id);
             mDrawables.add(drawable);
         }
+
+        initInterpolator();
         mParams = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
         // 父容器水平居中
         mParams.addRule(CENTER_HORIZONTAL, TRUE);
@@ -87,24 +97,41 @@ public class FlowerView extends RelativeLayout {
 
         // 最终的属性动画集合
         AnimatorSet finalSet = getAnimatorSet(imageView);
+       // finalSet.playSequentially();
         finalSet.start();
         finalSet.addListener(new AnimatorListenerAdapter() {
             @Override
             public void onAnimationEnd(Animator animation) {
-                getBezierValueAnimator(imageView).start();
+
+               getBezierValueAnimator(imageView).start();
             }
         });
 
     }
 
+    /**
+     * 初始化几种插补器
+     */
+    private void initInterpolator() {
+        mInterpolators = new Interpolator[4];
+        mInterpolators[0] = new LinearInterpolator();// 线性
+        mInterpolators[1] = new AccelerateDecelerateInterpolator();// 先加速后减速
+        mInterpolators[2] = new AccelerateInterpolator();// 加速
+        mInterpolators[3] = new DecelerateInterpolator();// 减速
+    }
+
+
+
     private AnimatorSet getAnimatorSet(ImageView imageView) {
         // 缩放
 
         ObjectAnimator scaleX = ObjectAnimator.ofFloat(imageView, "scaleX", 0.3f, 1.0f);
+        scaleX.setDuration(1000);
         ObjectAnimator scaleY = ObjectAnimator.ofFloat(imageView, "scaleY", 0.3f, 1.0f);
+        scaleX.setDuration(1000);
         ObjectAnimator alpha = ObjectAnimator.ofFloat(imageView, "alpha", 0.3f, 1f);
+        scaleX.setDuration(1000);
         AnimatorSet set = new AnimatorSet();
-        set.setDuration(1000);
         set.playTogether(scaleX, scaleY, alpha);
 
         return set;
@@ -136,13 +163,14 @@ public class FlowerView extends RelativeLayout {
         PointF pointF2 = getPonitF(2);
         PointF pointF1 = getPonitF(1);
         // 起点位置
-        PointF pointF0 = new PointF((mWidth - mDrawableWidth) / 2, mHeight - mDrawableHeight);
+        PointF pointF0 = new PointF((mWidth-mDrawableWidth) / 2, mHeight - mDrawableHeight);
         // 结束的位置
-        PointF pointF3 = new PointF(mRandom.nextInt(mWidth), 0);
+        PointF pointF3 = new PointF(mRandom.nextInt(mWidth-mDrawableWidth), 0);
         // 估值器Evaluator,来控制view的行驶路径（不断的修改point.x,point.y）
         BezierEvaluator evaluator = new BezierEvaluator(pointF1, pointF2);
         // 属性动画不仅仅改变View的属性，还可以改变自定义的属性
         ValueAnimator animator = ValueAnimator.ofObject(evaluator, pointF0, pointF3);
+        animator.setInterpolator(mInterpolators[mRandom.nextInt(mInterpolators.length)]);
         animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
@@ -157,7 +185,7 @@ public class FlowerView extends RelativeLayout {
             @Override
             public void onAnimationEnd(Animator animation) {
                 super.onAnimationEnd(animation);
-                loveIv.setAlpha(0f);
+
                 removeView(loveIv);
             }
         });
@@ -167,13 +195,7 @@ public class FlowerView extends RelativeLayout {
 
     private PointF getPonitF(int position) {
         PointF pointF = new PointF();
-        if (position == 2) {
-            pointF.set(mRandom.nextInt(mWidth), mRandom.nextInt(mHeight));
-        } else {
-            pointF.set(mRandom.nextInt(mWidth), mRandom.nextInt(mHeight));
-        }
-
-
+        pointF.set(mRandom.nextInt(mWidth-mDrawableWidth), mRandom.nextInt(mHeight/2+(position-1)*mHeight/2));
         return pointF;
     }
 

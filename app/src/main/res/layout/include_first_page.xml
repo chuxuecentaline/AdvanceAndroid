@@ -5,12 +5,15 @@
     android:id="@+id/rootFirstPage"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:ignore="ContentDescription">
 
     <ImageView
         android:id="@+id/ivFirstImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:outTranslateX="0.5"
+        app:inTranslateX="0.5"
         android:layout_centerInParent="true"
         android:src="@drawable/s_0_1"
         app:layout_heightPercent="35%"
@@ -44,6 +47,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/s_0_4"
+        app:outTranslateX="0.3"
+        app:inTranslateX="0.3"
+        app:inTranslateY="0.2"
+        app:outTranslateY="0.2"
+        app:inRotate="0.3"
+        app:outRotate="0.3"
         app:layout_heightPercent="15%"
         app:layout_marginLeftPercent="14%"
         app:layout_marginTopPercent="39%"
