@@ -14,7 +14,6 @@ import com.example.cherish.salehouse_kotlin.utils.HttpApi;
  */
 public class OkHttpEngineActicity extends BaseActivity {
 
-
     @Override
     public int getContentViewId() {
         return R.layout.activity_ok_http_engine_acticity;
