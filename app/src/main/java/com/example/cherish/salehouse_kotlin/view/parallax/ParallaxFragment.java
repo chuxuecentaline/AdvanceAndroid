@@ -33,10 +33,9 @@ public class ParallaxFragment extends Fragment implements LayoutInflater.Factory
     private CompatViewInflater mCompatViewInflater;
     //仿系统源码
     private int[] attrsIds = {R.attr.outTranslateX, R.attr.outTranslateY, R.attr.inTranslateX, R
-            .attr.inTranslateY, R.attr.outScaleX, R.attr.outScale, R.attr.outAlpha, R.attr
-            .outAlpha, R.attr.outRotate, R.attr.inRotate};
-    private View childView;
-    private List<View> mViewList=new ArrayList<>();
+            .attr.inTranslateY, R.attr.outScaleX, R.attr.outScaleY, R.attr.inScaleX, R.attr
+            .inScaleY, R.attr.outAlpha, R.attr.inAlpha, R.attr.outRotate, R.attr.inRotate};
+       private List<View> mViewList = new ArrayList<>();
 
     public static ParallaxFragment newInstance(int layoutId) {
         ParallaxFragment fragment = new ParallaxFragment();
@@ -66,21 +65,11 @@ public class ParallaxFragment extends Fragment implements LayoutInflater.Factory
 
     @Override
     public View onCreateView(View parent, String name, Context context, AttributeSet attrs) {
-        final boolean isPre21 = Build.VERSION.SDK_INT < 21;
-
-        if (mCompatViewInflater == null) {
-            mCompatViewInflater = new CompatViewInflater();
-        }
-
-        // We only want the View to inherit its context if we're running pre-v21
-        final boolean inheritContext = isPre21 && shouldInheritContext((ViewParent) parent);
-
-        @SuppressLint("RestrictedApi") View view = mCompatViewInflater.createView(parent, name,
-                context, attrs, inheritContext, isPre21, /* Only read android:theme pre-L (L+
-                handles this anyway) */
-                true, /* Read read app:theme as a fallback at all times for legacy reasons */
-                VectorEnabledTintResources.shouldBeUsed() /* Only tint wrap the context if
-                enabled */);
+        // View都会来这里,创建View
+        // 拦截到View的创建  获取View之后要去解析
+        // 1. 创建View
+        // If the Factory didn't handle it, let our createView() method try
+        View view = createView(parent, name, context, attrs);
         if (view != null) {
 
             analysisAttrs(view, context, attrs);
@@ -99,73 +88,68 @@ public class ParallaxFragment extends Fragment implements LayoutInflater.Factory
      * @param context
      * @param attrs
      */
-    private void analysisAttrs(View view, Context context, AttributeSet attrs) {
+    private  void analysisAttrs(View view, Context context, AttributeSet attrs) {
         TypedArray array = context.obtainStyledAttributes(attrs, attrsIds);
-        //仿KeyboardView 源码解析 attr
-        int n = array.getIndexCount();
-        System.out.println("attr----------->"+n);
-        AttrParams params = new AttrParams();
-        for (int i = 0; i < n; i++) {
-            int attr = array.getIndex(i);
-            System.out.println("attr----------->"+attr);
-            float attrP;
+        if (array != null && array.getIndexCount() != 0) {
+            //仿KeyboardView 源码解析 attr
+            int n = array.getIndexCount();
+            System.out.println("num------------>" + n);
+            AttrParams params = new AttrParams();
+            for (int i = 0; i < n; i++) {
+                int attr = array.getIndex(i);
+                switch (attr) {
+                    case 0:
+                        params.outTranslateX =array.getFloat(attr, 0);
+                        break;
+                    case 1:
+                        params.outTranslateY = array.getFloat(attr, 0);
+                        break;
+                    case 2:
+                        params.inTranslateX =array.getFloat(attr, 0);
+                        break;
+                    case 3:
+                        params.inTranslateY = array.getFloat(attr, 0);
+                        break;
+                    case 4:
+                        params.outScaleX =array.getFloat(attr, 1);
+                        break;
+                    case 5:
+                        params.outScaleY = array.getFloat(attr, 1);
+                        break;
+                    case 6:
+                        params.inScaleX = array.getFloat(attr, 1);
+                        break;
+                    case 7:
+                        params.inScaleY = array.getFloat(attr, 1);
+                        break;
+                    case 8:
+                        params.outAlpha =  array.getFloat(attr, 0);
+                        break;
+                    case 9:
+                        params.inAlpha =array.getFloat(attr, 0);
+                        break;
+                    case 10:
+                        params.outRotate =array.getFloat(attr, 1);
+                        break;
+                    case 11:
+                        params.inRotate = array.getFloat(attr, 1);
+                        break;
+                    default:
+                        break;
+                }
 
-            switch (attr) {
-                case 0:
-                    attrP = array.getFloat(attr, 1);
-                    params.outTranslateX = attrP;
-                    break;
-                case 1:
-                    attrP = array.getFloat(attr, 1);
-                    params.outTranslateY = attrP;
-                    break;
-                case 2:
-                    attrP = array.getFloat(attr, 1);
-                    params.inTranslateX = attrP;
-                    break;
-                case 3:
-                    attrP = array.getFloat(attr, 1);
-                    params.inTranslateY = attrP;
-                    break;
-                case 4:
-                    attrP = array.getFloat(attr, 1);
-                    params.outScaleX = attrP;
-                    break;
-                case 5:
-                    attrP = array.getFloat(attr, 0);
-                    params.outScale = attrP;
-                    break;
-                case 6:
-                    attrP = array.getFloat(attr, 1);
-                    params.outAlpha = attrP;
-                    break;
-                case 7:
-                    attrP = array.getFloat(attr, 1);
-                    params.inAlpha = attrP;
-                    break;
-                case 8:
-                    attrP = array.getFloat(attr, 1);
-                    params.outRotate = attrP;
-                    break;
-                case 9:
-                    attrP = array.getFloat(attr, 1);
-                    params.inRotate = attrP;
-                    break;
-                default:
-                    break;
+
             }
-
-
+            System.out.println("---------------v:" + view + "----------p:" + params.toString());
+            view.setTag(R.id.parallax_tag, params);
+            mViewList.add(view);
         }
-        view.setTag(view.getId(), params);
-        mViewList.add(view);
-        System.out.println("view------------>" + params.toString());
-        array.recycle();
+            array.recycle();
 
 
     }
 
-   public List<View> getChildView() {
+    public List<View> getChildView() {
         return mViewList;
     }
 
@@ -194,7 +178,23 @@ public class ParallaxFragment extends Fragment implements LayoutInflater.Factory
         }
     }
 
+    public View createView(View parent, final String name, @NonNull Context context,
+                           @NonNull AttributeSet attrs) {
+        final boolean isPre21 = Build.VERSION.SDK_INT < 21;
 
+        if (mCompatViewInflater == null) {
+            mCompatViewInflater = new CompatViewInflater();
+        }
+
+        // We only want the View to inherit it's context if we're running pre-v21
+        final boolean inheritContext = isPre21 && true
+                && shouldInheritContext((ViewParent) parent);
+
+        return mCompatViewInflater.createView(parent, name, context, attrs, inheritContext,
+                isPre21, /* Only read android:theme pre-L (L+ handles this anyway) */
+                true /* Read read app:theme as a fallback at all times for legacy reasons */
+        );
+    }
     @Override
     public View onCreateView(String name, Context context, AttributeSet attrs) {
         return null;

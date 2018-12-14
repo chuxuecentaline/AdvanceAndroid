@@ -6,7 +6,12 @@
     android:layout_height="match_parent"
     tools:context="com.example.cherish.salehouse_kotlin.activity.customView.YahuNewsLoadActivity">
 
-   <com.example.cherish.salehouse_kotlin.view.YahuLoadView
-       android:layout_width="match_parent"
-       android:layout_height="match_parent" />
+    <include
+        layout="@layout/include_first_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.example.cherish.salehouse_kotlin.view.YahuLoadView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </android.support.constraint.ConstraintLayout>

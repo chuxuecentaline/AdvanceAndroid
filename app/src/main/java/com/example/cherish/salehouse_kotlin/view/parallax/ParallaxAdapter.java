@@ -41,7 +41,6 @@ public class ParallaxAdapter extends FragmentPagerAdapter {
     }
 
     public List<ParallaxFragment> getChildView() {
-
         return mFragments;
     }
 }

@@ -51,8 +51,16 @@ public abstract class BaseRecyclerAdapter<T> extends RecyclerView.Adapter<BaseVi
                 }
             }
         });
+        getPosition(position,holder);
     }
+    /**
+     * 获取当前的位置
+     * @param position
+     * @param holder
+     */
+    public void getPosition(int position, BaseViewHolder holder) {
 
+    }
 
     @Override
     public int getItemCount() {

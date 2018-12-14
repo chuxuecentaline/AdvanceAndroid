@@ -78,7 +78,8 @@
         <activity android:name=".activity.pattern.StrategyActivity" />
         <activity android:name=".activity.pattern.ProxyActivity" />
         <activity android:name=".activity.pattern.ObserverActivity" />
-        <activity android:name=".activity.wheel.SplashActivity"></activity>
+        <activity android:name=".activity.wheel.SplashActivity" />
+        <activity android:name=".activity.wheel.RadarScanActivity"></activity>
     </application>
 
 </manifest>

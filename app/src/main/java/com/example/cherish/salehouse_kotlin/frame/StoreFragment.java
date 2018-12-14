@@ -21,6 +21,7 @@ import com.example.cherish.salehouse_kotlin.activity.customView.FlowerActivity;
 import com.example.cherish.salehouse_kotlin.activity.customView.ShakeAnimalTextViewActivity;
 import com.example.cherish.salehouse_kotlin.activity.customView.YahuNewsLoadActivity;
 import com.example.cherish.salehouse_kotlin.activity.wheel.AutoViewPagerActivity;
+import com.example.cherish.salehouse_kotlin.activity.wheel.RadarScanActivity;
 import com.example.cherish.salehouse_kotlin.activity.wheel.SplashActivity;
 import com.example.cherish.salehouse_kotlin.adapter.BaseRecyclerAdapter;
 import com.example.cherish.salehouse_kotlin.adapter.MultiAdapter;
@@ -51,6 +52,7 @@ public class StoreFragment extends BaseFragment {
         data.add("花束直播点赞");
         data.add("雅虎新闻摘要加载");
         data.add("酷狗引导页");
+        data.add("微信QQ附近好友雷达扫描");
     }
 
     @Override
@@ -97,6 +99,9 @@ public class StoreFragment extends BaseFragment {
                         break;
                     case 6:
                         startActivity(SplashActivity.class);
+                        break;
+                    case 7:
+                        startActivity(RadarScanActivity.class);
                         break;
                     case 100:
                         startActivity(ShakeAnimalTextViewActivity.class);

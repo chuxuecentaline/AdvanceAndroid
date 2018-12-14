@@ -13,7 +13,9 @@ public class AttrParams {
     public float inTranslateX;
     public float inTranslateY;
     public float outScaleX;
-    public float outScale;
+    public float outScaleY;
+    public float inScaleX;
+    public float inScaleY;
     public float outAlpha;
     public float inAlpha;
     public float outRotate;
@@ -23,8 +25,8 @@ public class AttrParams {
     public String toString() {
         return "AttrParams{" + "outTranslateX=" + outTranslateX + ", outTranslateY=" +
                 outTranslateY + ", inTranslateX=" + inTranslateX + ", inTranslateY=" +
-                inTranslateY + ", outScaleX=" + outScaleX + ", outScale=" + outScale + ", " +
-                "outAlpha=" + outAlpha + ", inAlpha=" + inAlpha + ", outRotate=" + outRotate + "," +
-                " inRotate=" + inRotate + '}';
+                inTranslateY + ", outScaleX=" + outScaleX + ", outScaleY=" + outScaleY + ", " +
+                "inScaleX=" + inScaleX + ", inScaleY=" + inScaleY + ", outAlpha=" + outAlpha + "," +
+                " inAlpha=" + inAlpha + ", outRotate=" + outRotate + ", inRotate=" + inRotate + '}';
     }
 }

@@ -1,14 +1,14 @@
 package com.example.cherish.salehouse_kotlin.view.parallax;
 
-import android.annotation.SuppressLint;
-import android.content.Context;
-
-import android.support.v7.app.AppCompatViewInflater;
-import android.util.AttributeSet;
+/**
+ * Email 240336124@qq.com
+ * Created by Darren on 2017/3/25.
+ * Version 1.0
+ * Description:
+ */
 import android.content.Context;
 import android.content.ContextWrapper;
 import android.content.res.TypedArray;
-import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.util.ArrayMap;
@@ -28,7 +28,6 @@ import android.support.v7.widget.AppCompatRatingBar;
 import android.support.v7.widget.AppCompatSeekBar;
 import android.support.v7.widget.AppCompatSpinner;
 import android.support.v7.widget.AppCompatTextView;
-import android.support.v7.widget.TintContextWrapper;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.InflateException;
@@ -40,31 +39,29 @@ import java.lang.reflect.Method;
 import java.util.Map;
 
 /**
- * copy 源码 AppCompatViewInflater
- * Created by cherish
+ * This class is responsible for manually inflating our tinted widgets which are used on devices
+ * running {@link android.os.Build.VERSION_CODES#KITKAT KITKAT} or below. As such, this class
+ * should only be used when running on those devices.
+ * <p>This class two main responsibilities: the first is to 'inject' our tinted views in place of
+ * the framework versions in layout inflation; the second is backport the {@code android:theme}
+ * functionality for any inflated widgets. This include theme inheritance from it's parent.
  */
-
 public class CompatViewInflater {
 
-    private static final Class<?>[] sConstructorSignature = new Class[]{Context.class,
-            AttributeSet.class};
+    private static final Class<?>[] sConstructorSignature = new Class[]{
+            Context.class, AttributeSet.class};
     private static final int[] sOnClickAttrs = new int[]{android.R.attr.onClick};
-
-    private static final String[] sClassPrefixList = {"android.widget.", "android.view.",
-            "android.webkit."};
 
     private static final String LOG_TAG = "AppCompatViewInflater";
 
-    private static final Map<String, Constructor<? extends View>> sConstructorMap = new
-            ArrayMap<>();
+    private static final Map<String, Constructor<? extends View>> sConstructorMap
+            = new ArrayMap<>();
 
     private final Object[] mConstructorArgs = new Object[2];
 
-
-    @SuppressLint("RestrictedApi")
-    final View createView(View parent, final String name, @NonNull Context context, @NonNull
-            AttributeSet attrs, boolean inheritContext, boolean readAndroidTheme, boolean
-            readAppTheme, boolean wrapContext) {
+    public final View createView(View parent, final String name, @NonNull Context context,
+                                 @NonNull AttributeSet attrs, boolean inheritContext,
+                                 boolean readAndroidTheme, boolean readAppTheme) {
         final Context originalContext = context;
 
         // We can emulate Lollipop's android:theme attribute propagating down the view hierarchy
@@ -76,166 +73,64 @@ public class CompatViewInflater {
             // We then apply the theme on the context, if specified
             context = themifyContext(context, attrs, readAndroidTheme, readAppTheme);
         }
-        if (wrapContext) {
-            context = TintContextWrapper.wrap(context);
-        }
 
         View view = null;
 
         // We need to 'inject' our tint aware Views in place of the standard framework versions
         switch (name) {
             case "TextView":
-                view = createTextView(context, attrs);
-                verifyNotNull(view, name);
+                view = new AppCompatTextView(context, attrs);
                 break;
             case "ImageView":
-                view = createImageView(context, attrs);
-                verifyNotNull(view, name);
+                view = new AppCompatImageView(context, attrs);
                 break;
             case "Button":
-                view = createButton(context, attrs);
-                verifyNotNull(view, name);
+                view = new AppCompatButton(context, attrs);
                 break;
             case "EditText":
-                view = createEditText(context, attrs);
-                verifyNotNull(view, name);
+                view = new AppCompatEditText(context, attrs);
                 break;
             case "Spinner":
-                view = createSpinner(context, attrs);
-                verifyNotNull(view, name);
+                view = new AppCompatSpinner(context, attrs);
                 break;
             case "ImageButton":
-                view = createImageButton(context, attrs);
-                verifyNotNull(view, name);
+                view = new AppCompatImageButton(context, attrs);
                 break;
             case "CheckBox":
-                view = createCheckBox(context, attrs);
-                verifyNotNull(view, name);
+                view = new AppCompatCheckBox(context, attrs);
                 break;
             case "RadioButton":
-                view = createRadioButton(context, attrs);
-                verifyNotNull(view, name);
+                view = new AppCompatRadioButton(context, attrs);
                 break;
             case "CheckedTextView":
-                view = createCheckedTextView(context, attrs);
-                verifyNotNull(view, name);
+                view = new AppCompatCheckedTextView(context, attrs);
                 break;
             case "AutoCompleteTextView":
-                view = createAutoCompleteTextView(context, attrs);
-                verifyNotNull(view, name);
+                view = new AppCompatAutoCompleteTextView(context, attrs);
                 break;
             case "MultiAutoCompleteTextView":
-                view = createMultiAutoCompleteTextView(context, attrs);
-                verifyNotNull(view, name);
+                view = new AppCompatMultiAutoCompleteTextView(context, attrs);
                 break;
             case "RatingBar":
-                view = createRatingBar(context, attrs);
-                verifyNotNull(view, name);
+                view = new AppCompatRatingBar(context, attrs);
                 break;
             case "SeekBar":
-                view = createSeekBar(context, attrs);
-                verifyNotNull(view, name);
+                view = new AppCompatSeekBar(context, attrs);
                 break;
-            default:
-                // The fallback that allows extending class to take over view inflation
-                // for other tags. Note that we don't check that the result is not-null.
-                // That allows the custom inflater path to fall back on the default one
-                // later in this method.
-                view = createView(context, name, attrs);
         }
 
-        if (view == null && originalContext != context) {
+        if (view == null) {
             // If the original context does not equal our themed context, then we need to manually
             // inflate it using the name so that android:theme takes effect.
             view = createViewFromTag(context, name, attrs);
         }
 
         if (view != null) {
-            // If we have created a view, check its android:onClick
+            // If we have created a view, check it's android:onClick
             checkOnClickListener(view, attrs);
         }
 
         return view;
-    }
-
-    @NonNull
-    protected AppCompatTextView createTextView(Context context, AttributeSet attrs) {
-        return new AppCompatTextView(context, attrs);
-    }
-
-    @NonNull
-    protected AppCompatImageView createImageView(Context context, AttributeSet attrs) {
-        return new AppCompatImageView(context, attrs);
-    }
-
-    @NonNull
-    protected AppCompatButton createButton(Context context, AttributeSet attrs) {
-        return new AppCompatButton(context, attrs);
-    }
-
-    @NonNull
-    protected AppCompatEditText createEditText(Context context, AttributeSet attrs) {
-        return new AppCompatEditText(context, attrs);
-    }
-
-    @NonNull
-    protected AppCompatSpinner createSpinner(Context context, AttributeSet attrs) {
-        return new AppCompatSpinner(context, attrs);
-    }
-
-    @NonNull
-    protected AppCompatImageButton createImageButton(Context context, AttributeSet attrs) {
-        return new AppCompatImageButton(context, attrs);
-    }
-
-    @NonNull
-    protected AppCompatCheckBox createCheckBox(Context context, AttributeSet attrs) {
-        return new AppCompatCheckBox(context, attrs);
-    }
-
-    @NonNull
-    protected AppCompatRadioButton createRadioButton(Context context, AttributeSet attrs) {
-        return new AppCompatRadioButton(context, attrs);
-    }
-
-    @NonNull
-    protected AppCompatCheckedTextView createCheckedTextView(Context context, AttributeSet attrs) {
-        return new AppCompatCheckedTextView(context, attrs);
-    }
-
-    @NonNull
-    protected AppCompatAutoCompleteTextView createAutoCompleteTextView(Context context,
-                                                                       AttributeSet attrs) {
-        return new AppCompatAutoCompleteTextView(context, attrs);
-    }
-
-    @NonNull
-    protected AppCompatMultiAutoCompleteTextView createMultiAutoCompleteTextView(Context context,
-                                                                                 AttributeSet
-                                                                                         attrs) {
-        return new AppCompatMultiAutoCompleteTextView(context, attrs);
-    }
-
-    @NonNull
-    protected AppCompatRatingBar createRatingBar(Context context, AttributeSet attrs) {
-        return new AppCompatRatingBar(context, attrs);
-    }
-
-    @NonNull
-    protected AppCompatSeekBar createSeekBar(Context context, AttributeSet attrs) {
-        return new AppCompatSeekBar(context, attrs);
-    }
-
-    private void verifyNotNull(View view, String name) {
-        if (view == null) {
-            throw new IllegalStateException(this.getClass().getName() + " asked to inflate view " +
-                    "for <" + name + ">, but returned null");
-        }
-    }
-
-    @Nullable
-    protected View createView(Context context, String name, AttributeSet attrs) {
-        return null;
     }
 
     private View createViewFromTag(Context context, String name, AttributeSet attrs) {
@@ -248,15 +143,10 @@ public class CompatViewInflater {
             mConstructorArgs[1] = attrs;
 
             if (-1 == name.indexOf('.')) {
-                for (int i = 0; i < sClassPrefixList.length; i++) {
-                    final View view = createViewByPrefix(context, name, sClassPrefixList[i]);
-                    if (view != null) {
-                        return view;
-                    }
-                }
-                return null;
+                // try the android.widget prefix first...
+                return createView(context, name, "android.widget.");
             } else {
-                return createViewByPrefix(context, name, null);
+                return createView(context, name, null);
             }
         } catch (Exception e) {
             // We do not want to catch these, lets return null and let the actual LayoutInflater
@@ -277,32 +167,29 @@ public class CompatViewInflater {
     private void checkOnClickListener(View view, AttributeSet attrs) {
         final Context context = view.getContext();
 
-        if (!(context instanceof ContextWrapper) || (Build.VERSION.SDK_INT >= 15 && !ViewCompat
-                .hasOnClickListeners(view))) {
-            // Skip our compat functionality if: the Context isn't a ContextWrapper, or
-            // the view doesn't have an OnClickListener (we can only rely on this on API 15+ so
-            // always use our compat code on older devices)
+        if (!ViewCompat.hasOnClickListeners(view) || !(context instanceof ContextWrapper)) {
+            // Skip our compat functionality if: the view doesn't have an onClickListener,
+            // or the Context isn't a ContextWrapper
             return;
         }
 
         final TypedArray a = context.obtainStyledAttributes(attrs, sOnClickAttrs);
         final String handlerName = a.getString(0);
         if (handlerName != null) {
-            view.setOnClickListener(new CompatViewInflater.DeclaredOnClickListener(view,
-                    handlerName));
+            view.setOnClickListener(new DeclaredOnClickListener(view, handlerName));
         }
         a.recycle();
     }
 
-    private View createViewByPrefix(Context context, String name, String prefix) throws
-            ClassNotFoundException, InflateException {
+    private View createView(Context context, String name, String prefix)
+            throws ClassNotFoundException, InflateException {
         Constructor<? extends View> constructor = sConstructorMap.get(name);
 
         try {
             if (constructor == null) {
                 // Class not found in the cache, see if it's real, and try to add it
-                Class<? extends View> clazz = context.getClassLoader().loadClass(prefix != null ?
-                        (prefix + name) : name).asSubclass(View.class);
+                Class<? extends View> clazz = context.getClassLoader().loadClass(
+                        prefix != null ? (prefix + name) : name).asSubclass(View.class);
 
                 constructor = clazz.getConstructor(sConstructorSignature);
                 sConstructorMap.put(name, constructor);
@@ -319,8 +206,8 @@ public class CompatViewInflater {
     /**
      * Allows us to emulate the {@code android:theme} attribute for devices before L.
      */
-    private static Context themifyContext(Context context, AttributeSet attrs, boolean
-            useAndroidTheme, boolean useAppTheme) {
+    private static Context themifyContext(Context context, AttributeSet attrs,
+                                          boolean useAndroidTheme, boolean useAppTheme) {
         final TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.View, 0, 0);
         int themeId = 0;
         if (useAndroidTheme) {
@@ -332,14 +219,14 @@ public class CompatViewInflater {
             themeId = a.getResourceId(R.styleable.View_theme, 0);
 
             if (themeId != 0) {
-                Log.i(LOG_TAG, "app:theme is now deprecated. " + "Please move to using " +
-                        "android:theme instead.");
+                Log.i(LOG_TAG, "app:theme is now deprecated. "
+                        + "Please move to using android:theme instead.");
             }
         }
         a.recycle();
 
-        if (themeId != 0 && (!(context instanceof ContextThemeWrapper) || ((ContextThemeWrapper)
-                context).getThemeResId() != themeId)) {
+        if (themeId != 0 && (!(context instanceof ContextThemeWrapper)
+                || ((ContextThemeWrapper) context).getThemeResId() != themeId)) {
             // If the context isn't a ContextThemeWrapper, or it is but does not have
             // the same theme as we need, wrap it in a new wrapper
             context = new ContextThemeWrapper(context, themeId);
@@ -372,10 +259,11 @@ public class CompatViewInflater {
             try {
                 mResolvedMethod.invoke(mResolvedContext, v);
             } catch (IllegalAccessException e) {
-                throw new IllegalStateException("Could not execute non-public method for " +
-                        "android:onClick", e);
+                throw new IllegalStateException(
+                        "Could not execute non-public method for android:onClick", e);
             } catch (InvocationTargetException e) {
-                throw new IllegalStateException("Could not execute method for android:onClick", e);
+                throw new IllegalStateException(
+                        "Could not execute method for android:onClick", e);
             }
         }
 
@@ -404,11 +292,12 @@ public class CompatViewInflater {
             }
 
             final int id = mHostView.getId();
-            final String idText = id == View.NO_ID ? "" : " with id '" + mHostView.getContext()
-                    .getResources().getResourceEntryName(id) + "'";
-            throw new IllegalStateException("Could not find method " + mMethodName + "(View) in a" +
-                    " parent or ancestor Context for android:onClick " + "attribute defined on " +
-                    "view " + mHostView.getClass() + idText);
+            final String idText = id == View.NO_ID ? "" : " with id '"
+                    + mHostView.getContext().getResources().getResourceEntryName(id) + "'";
+            throw new IllegalStateException("Could not find method " + mMethodName
+                    + "(View) in a parent or ancestor Context for android:onClick "
+                    + "attribute defined on view " + mHostView.getClass() + idText);
         }
     }
 }
+

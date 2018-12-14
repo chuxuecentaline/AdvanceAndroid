@@ -39,64 +39,62 @@ public class ParallaxViewPager extends ViewPager {
         final List<ParallaxFragment> fragments = adapter.getChildView();
         addOnPageChangeListener(new OnPageChangeListener() {
 
-
-            private View mView;
-            public int mCurrentPosition;
-
             @Override
             public void onPageScrolled(int position, float positionOffset, int
                     positionOffsetPixels) {
+              //  System.out.println("--------->p" + position + "---------->o" + positionOffset + "------------>s" + positionOffsetPixels);
                 //当前页面
-                ParallaxFragment fragment = fragments.get(position);
-                if(fragment!=null){
-                    List<View> views = fragment.getChildView();
-                    if(views!=null){
+                ParallaxFragment outFragment = fragments.get(position);
+                if (outFragment != null) {
+                    List<View> views = outFragment.getChildView();
+                    if (views != null) {
                         for (int i = 0; i < views.size(); i++) {
                             View view = views.get(i);
-                            AttrParams tag = (AttrParams) view.getTag(view.getId());
-                            view.setTranslationX(-positionOffsetPixels*tag.outTranslateX);
-                            view.setTranslationY(-positionOffsetPixels*tag.outTranslateY);
-                            view.setRotation(tag.outRotate);
-                           // view.setAlpha(tag.outAlpha);
+                            AttrParams tag = (AttrParams) view.getTag(R.id.parallax_tag);
+                            view.setTranslationX(-positionOffsetPixels * tag.outTranslateX);
+                            view.setTranslationY(-positionOffsetPixels * tag.outTranslateY);
+                          //  view.setRotation(positionOffsetPixels * tag.outRotate);
+                            view.setAlpha(1 - positionOffset + tag.outAlpha);
+                            if(positionOffset>0){
+                              //  view.setScaleX(positionOffset * tag.outScaleX);
+                                //view.setScaleY(positionOffset * tag.outScaleY);
+                            }
+
+
                         }
 
                     }
                 }
-               //下一页面
+                //下一页面
                 try {
-                    ParallaxFragment fragmentNex = fragments.get(position+1);
-                    if(fragmentNex!=null){
-                        List<View> views = fragmentNex.getChildView();
+                    ParallaxFragment inFragment = fragments.get(position + 1);
+                    if (inFragment != null) {
+                        List<View> views = inFragment.getChildView();
                         for (int i = 0; i < views.size(); i++) {
                             View view = views.get(i);
-                            AttrParams tag = (AttrParams) view.getTag(view.getId());
-                            view.setTranslationX(positionOffsetPixels*tag.inTranslateX);
-                            view.setTranslationY(positionOffsetPixels*tag.inTranslateY);
-                            view.setRotation(tag.inRotate);
-                          //  view.setAlpha(tag.inAlpha);
+                            AttrParams tag = (AttrParams) view.getTag(R.id.parallax_tag);
+                            view.setTranslationX((getMeasuredWidth()-positionOffsetPixels) * tag.inTranslateX);
+                            view.setTranslationY((getMeasuredWidth()-positionOffsetPixels) * tag.inTranslateY);
+                            //view.setRotation(positionOffsetPixels * tag.inRotate);
+                            view.setAlpha(positionOffset + tag.inAlpha);
+                            System.out.println("nex" + view);
+                            if(positionOffset>0){
+                              //  view.setScaleX(positionOffset * tag.inScaleX);
+                                //view.setScaleY(positionOffset * tag.inScaleX);
+                            }
+
                         }
                     }
-                }catch (Exception e){
+                } catch (Exception e) {
 
                 }
-
-
-
 
 
             }
 
             @Override
             public void onPageSelected(int position) {
-                //  System.out.println("onPageSelected position--->" + position );
-                mCurrentPosition = position;
-                try {
-                    new StatusBarUtils().setStatusBarColors((Activity) getContext(), getResources
-                            ().getColor(colors[position]));
 
-                } catch (Exception e) {
-
-                }
             }
 
             @Override

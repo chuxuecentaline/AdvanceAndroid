@@ -1,5 +1,6 @@
 
-squid:S3923ª"[Remove this conditional structure or edit its code blocks so that they're not all the same.(âÈÔ—úÿÿÿÿ8Ü¤¨Şù,
-^squid:UselessImportCheck"3Remove this unused import 'android.view.ViewGroup'.(‹îá8ÎõŠÛù,
-Hsquid:S1659·"$Declare "point2" on a separate line.(úç Åüÿÿÿÿ8Ü¤¨Şù,
-nsquid:UselessImportCheck"CRemove this unused import 'com.example.cherish.salehouse_kotlin.R'.(€â¾8ŸğşÜù,
+nsquid:UselessImportCheck"CRemove this unused import 'com.example.cherish.salehouse_kotlin.R'.(€â¾8ó“±ú,
+^squid:UselessImportCheck"3Remove this unused import 'android.view.ViewGroup'.(‹îá8ÎõŠÛù,
+osquid:UselessImportCheck"?Remove this unused import 'android.animation.TimeInterpolator'.(±·àµıÿÿÿÿ8”ˆ‚±ú,
+Hsquid:S1659Í"$Declare "point2" on a separate line.(úç Åüÿÿÿÿ8ş»Ì°ú,
+Šsquid:UselessImportCheck"ZRemove this unused import 'android.support.v4.view.animation.FastOutLinearInInterpolator'.(¿¸à›ÿÿÿÿÿ8œ”Ü°ú,

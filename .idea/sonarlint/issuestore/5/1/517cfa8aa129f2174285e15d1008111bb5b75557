@@ -1,0 +1,14 @@
+
+nsquid:UselessImportCheck"CRemove this unused import 'com.example.cherish.salehouse_kotlin.R'.(€â¾8¥ÿÚ´ú,
+Œ"squid:ClassVariableVisibilityCheck"XMake inTranslateY a static final constant or non-public and provide accessors if needed.(Ó÷Õj8¥ÿÚ´ú,
+"squid:ClassVariableVisibilityCheck"TMake inScaleY a static final constant or non-public and provide accessors if needed.(ÍÀ×Şøÿÿÿÿ8«„•¹ú,
+"squid:ClassVariableVisibilityCheck"TMake inScaleX a static final constant or non-public and provide accessors if needed.(î¡·…şÿÿÿÿ8«„•¹ú,
+"squid:ClassVariableVisibilityCheck"TMake outAlpha a static final constant or non-public and provide accessors if needed.(òş°Çûÿÿÿÿ8¡¤µú,
+Š"squid:ClassVariableVisibilityCheck"UMake outScaleX a static final constant or non-public and provide accessors if needed.(äò¬ò8 ¤µú,
+Š"squid:ClassVariableVisibilityCheck"UMake outScaleY a static final constant or non-public and provide accessors if needed.(îÚš8Ì–”¹ú,
+ˆ"squid:ClassVariableVisibilityCheck"SMake inAlpha a static final constant or non-public and provide accessors if needed.(”Œª†8¡¤µú,
+“"squid:ClassVariableVisibilityCheck"YMake outTranslateY a static final constant or non-public and provide accessors if needed.(Ó‘Œ«ùÿÿÿÿ8¥ÿÚ´ú,
+"squid:ClassVariableVisibilityCheck"YMake outTranslateX a static final constant or non-public and provide accessors if needed.(™•†Œ8¼ß´ú,
+Š"squid:ClassVariableVisibilityCheck"UMake outRotate a static final constant or non-public and provide accessors if needed.(Øğ‚8îÁµú,
+Œ"squid:ClassVariableVisibilityCheck"XMake inTranslateX a static final constant or non-public and provide accessors if needed.(ß–È8¥ÿÚ´ú,
+‰"squid:ClassVariableVisibilityCheck"TMake inRotate a static final constant or non-public and provide accessors if needed.(²¯¶˜8½áµú,
