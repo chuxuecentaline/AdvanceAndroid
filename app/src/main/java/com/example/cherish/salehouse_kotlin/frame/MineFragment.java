@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 
 import com.example.cherish.salehouse_kotlin.R;
+import com.example.cherish.salehouse_kotlin.activity.pattern.AppearanceActivity;
 import com.example.cherish.salehouse_kotlin.activity.pattern.BuildActivity;
 import com.example.cherish.salehouse_kotlin.activity.pattern.FactoryActivity;
 import com.example.cherish.salehouse_kotlin.activity.pattern.IteratorActivity;
