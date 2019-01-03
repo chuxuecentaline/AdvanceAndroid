@@ -1,7 +1,7 @@
 
-nsquid:UselessImportCheck"CRemove this unused import 'android.view.animation.RotateAnimation'.(€¦Ôó8»İ®ˆú,
-csquid:UselessImportCheck"3Remove this unused import 'android.graphics.Color'.(øãíòşÿÿÿÿ8Ø×™ˆú,
-[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8àà‡ú,
-Ksquid:S1185T"(Remove this method to simply inherit it.(ÿ™¢§ûÿÿÿÿ8İˆªŠú,
-[squid:S1134"DTake the required action to fix the issue indicated by this comment.(€ÎÿÍ
-nsquid:UselessImportCheck"CRemove this unused import 'com.example.cherish.salehouse_kotlin.R'.(€â¾8ûÂç‡ú,
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8àà‡ú,
+ysquid:UselessImportCheck"NRemove this unused import 'io.reactivex.android.schedulers.AndroidSchedulers'.(¶çş 8µ°®Úú,
+[squid:S1134"DTake the required action to fix the issue indicated by this comment.(€ÎÿÍ
+nsquid:UselessImportCheck"CRemove this unused import 'android.view.animation.RotateAnimation'.(€¦Ôó8»İ®ˆú,
+csquid:UselessImportCheck
+"3Remove this unused import 'android.graphics.Color'.(øãíòşÿÿÿÿ8â‚ˆÜú,

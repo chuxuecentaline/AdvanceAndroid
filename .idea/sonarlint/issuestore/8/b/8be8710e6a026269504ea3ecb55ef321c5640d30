@@ -1,4 +1,4 @@
 
-Nsquid:UselessImportCheck "Remove this duplicated import.(ì®Å±ùÿÿÿÿ8Ì²Ù³ú,
-[squid:S00107A"<Method has 8 parameters, which is greater than 7 authorized.(¬¶ñœ8É†Ó³ú,
-Isquid:UselessImportCheck"Remove this duplicated import.(©Ê‰è8Ì²Ù³ú,
+\"squid:SwitchLastCaseIsDefaultCheckP""Add a default case to this switch.(àÐŠ¹ýÿÿÿÿ8ªÚñÙú,
+Wsquid:S1481A"4Remove this unused "originalContext" local variable.(«šµáøÿÿÿÿ8ªÚñÙú,
+fsquid:S1854A"CRemove this useless assignment to local variable "originalContext".(«šµáøÿÿÿÿ8ªÚñÙú,

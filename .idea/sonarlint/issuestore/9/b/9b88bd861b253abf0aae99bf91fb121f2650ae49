@@ -1,5 +1,5 @@
 
-dsquid:MaximumInheritanceDepth
-"<This class has 8 parents which is greater than 5 authorized.(ô¨—5
 Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÛÖŽý8á´©ú,
 usquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8è€©ú,
+dsquid:MaximumInheritanceDepth
+"<This class has 8 parents which is greater than 5 authorized.(ô¨—5

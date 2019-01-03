@@ -1,0 +1,5 @@
+
+Isquid:S1068"+Remove this unused "apkPath" private field.(áÊš»8ÛóÜªû,
+lsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(”¹—Ö8™ñ€Œû,
+qsquid:UselessImportCheck"ARemove this unused import 'com.example.baselibrary.ioc.BindView'.(‰Ñ·÷ÿÿÿÿÿ8é“¾©û,
+usquid:UselessImportCheck	"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8ËÑ€Œû,

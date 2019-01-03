@@ -1,7 +1,14 @@
 
-ssquid:UselessImportCheck"CRemove this unused import 'com.example.baselibrary.http.HttpUtils'.(Óäÿüÿÿÿÿ8Î«–¹ù,
-bsquid:S1134"DTake the required action to fix the issue indicated by this comment.(€ÎÿÍ8ôİ¥¹ù,
-|squid:UselessImportCheck	"QRemove this unused import 'com.example.cherish.salehouse_kotlin.bean.BannerBean'.(ÃÆ‡ì8Î…ÒÁù,
-nsquid:UselessImportCheck">Remove this unused import 'com.google.gson.reflect.TypeToken'.(İªıñøÿÿÿÿ8ì¾Áù,
-Vsquid:UselessImportCheck"+Remove this unused import 'java.io.Reader'.(µû¨é8ôİ¥¹ù,
+esquid:S00112H"FDefine and throw a dedicated exception instead of using a generic one.(ÿ‘§’8åÿ†åú,
 squid:UselessImportCheck"QRemove this unused import 'com.example.baselibrary.CarouselViewPager.BannerView'.(¢ÅƒÍıÿÿÿÿ8Ö¦ÄÁù,
+ssquid:UselessImportCheck"CRemove this unused import 'com.example.baselibrary.http.HttpUtils'.(Óäÿüÿÿÿÿ8Î«–¹ù,
+Vsquid:UselessImportCheck"+Remove this unused import 'java.io.Reader'.(µû¨é8ôİ¥¹ù,
+Nsquid:S1481*"+Remove this unused "aClass" local variable.(øú½èüÿÿÿÿ8Ñ½œåú,
+„squid:S4144B"aUpdate this method so that its implementation is not identical to "analysisClazzInfo" on line 60.(šÿªşÿÿÿÿ8©Œåú,
+jsquid:S00112O"FDefine and throw a dedicated exception instead of using a generic one.(¼ŠÍ¨ùÿÿÿÿ8î©‡åú,
+nsquid:UselessImportCheck">Remove this unused import 'com.google.gson.reflect.TypeToken'.(İªıñøÿÿÿÿ8ì¾Áù,
+bsquid:S1134"DTake the required action to fix the issue indicated by this comment.(€ÎÿÍ8ôİ¥¹ù,
+]squid:S1854*":Remove this useless assignment to local variable "aClass".(øú½èüÿÿÿÿ8Ñ½œåú,
+Fsquid:S1148-"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ8à¢ˆåú,
+jsquid:UselessImportCheck"@Remove this unused import 'com.google.gson.JsonSyntaxException'.(èİ£68ğù‡åú,
+|squid:UselessImportCheck	"QRemove this unused import 'com.example.cherish.salehouse_kotlin.bean.BannerBean'.(ÃÆ‡ì8Î…ÒÁù,

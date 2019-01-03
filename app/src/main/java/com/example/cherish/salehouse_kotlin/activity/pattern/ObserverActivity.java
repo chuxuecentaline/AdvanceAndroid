@@ -6,6 +6,8 @@ import android.os.Bundle;
 import com.example.baselibrary.base.BaseActivity;
 import com.example.baselibrary.toolbar.normal.NormalNavigationBar;
 import com.example.cherish.salehouse_kotlin.R;
+import com.example.cherish.salehouse_kotlin.utils.observer.BookObserver;
+import com.example.cherish.salehouse_kotlin.utils.observer.LibraryManager;
 
 public class ObserverActivity extends BaseActivity {
 
@@ -23,6 +25,15 @@ public class ObserverActivity extends BaseActivity {
 
     @Override
     protected void init(Bundle savedInstanceState) {
+        BookObserver observer=new BookObserver(5);
+        LibraryManager libraryManager=new LibraryManager();
+        libraryManager.addObserver(observer);
+        libraryManager.addBook("java基础");
+        libraryManager.addBook("Android 进阶");
+        libraryManager.addBook("速度与激情系列 ");
+        libraryManager.addBook("速度与激情7 ");
+        libraryManager.removeBook("速度与激情系列");
+        libraryManager.deleteObserver(observer);
 
     }
 }

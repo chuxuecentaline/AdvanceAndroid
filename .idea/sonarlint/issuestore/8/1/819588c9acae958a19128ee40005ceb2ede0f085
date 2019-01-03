@@ -1,10 +1,10 @@
 
-lsquid:MaximumInheritanceDepth("<This class has 8 parents which is greater than 5 authorized.(Φ“«¶8½“Σρ,
-fsquid:S1854_"CRemove this useless assignment to local variable "itemTouchHelper".(ΐÿÿÿÿÿ8Χρσυ,
-Wsquid:S1481_"4Remove this unused "itemTouchHelper" local variable.(ΐÿÿÿÿÿ8Χρσυ,
-‡squid:UselessImportCheck"]Remove this unused import 'com.example.cherish.salehouse_kotlin.adapter.WrapRecyclerAdapter'.(τÿH8¬€τυ,
 Nsquid:S1135]"2Complete the task associated to this TODO comment.(€φ‘ύÿÿÿÿ
 [squid:S1155Ά">Use isEmpty() to check whether the collection is empty or not.(Ίϋ¶ϊÿÿÿÿ
+‡squid:UselessImportCheck"]Remove this unused import 'com.example.cherish.salehouse_kotlin.adapter.WrapRecyclerAdapter'.(τÿH8¬€τυ,
 ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(κΗÒΌ8ωµ°ύπ,
-isquid:S3776D"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(ΫΦύ
 squid:S1186/"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Πτ΄·ωÿÿÿÿ
+Wsquid:S1481_"4Remove this unused "itemTouchHelper" local variable.(ΐÿÿÿÿÿ8Χρσυ,
+isquid:S3776D"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(ΫΦύ
+fsquid:S1854_"CRemove this useless assignment to local variable "itemTouchHelper".(ΐÿÿÿÿÿ8Χρσυ,
+lsquid:MaximumInheritanceDepth("<This class has 8 parents which is greater than 5 authorized.(Φ“«¶8½“Σρ,

@@ -79,7 +79,13 @@
         <activity android:name=".activity.pattern.ProxyActivity" />
         <activity android:name=".activity.pattern.ObserverActivity" />
         <activity android:name=".activity.wheel.SplashActivity" />
-        <activity android:name=".activity.wheel.RadarScanActivity"></activity>
+        <activity android:name=".activity.wheel.RadarScanActivity" />
+        <activity android:name=".activity.wheel.DroidPlugin360Activity" />
+        <activity android:name=".activity.wheel.ProxyActivity" />
+        <activity android:name=".activity.pattern.PrototypeActivity" />
+        <activity android:name=".activity.pattern.IteratorActivity" />
+        <activity android:name=".activity.pattern.ResponsibilityChainActivity" />
+        <activity android:name=".activity.pattern.AppearanceActivity"></activity>
     </application>
 
 </manifest>

@@ -1,5 +1,6 @@
 package com.example.cherish.salehouse_kotlin.activity.wheel;
 
+import android.content.Intent;
 import android.os.Handler;
 import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -41,8 +42,7 @@ public class RadarScanActivity extends BaseActivity {
 
     @Override
     protected void findViews() {
-        new NormalNavigationBar.Build(this).setTitle("微信QQ附近好友雷达扫描").setRightMenu(R.menu
-                .navigation_tab).create();
+     //   new NormalNavigationBar.Build(this).setTitle("微信QQ附近好友雷达扫描").setRightMenu(R.menu.navigation_tab).create();
         new StatusBarUtils().setStatusTranslate(this);
         BindViewUtils.inject(this);
     }
@@ -57,7 +57,8 @@ public class RadarScanActivity extends BaseActivity {
         data.add("-1");
         mAdapter = new RadarScanAdapter(this, data);
         recyclerView.setAdapter(mAdapter);
-        new Handler().post(new Runnable() {
+
+        constraintLayout.post(new Runnable() {
             @Override
             public void run() {
                 int width = constraintLayout.getMeasuredWidth();
@@ -66,7 +67,6 @@ public class RadarScanActivity extends BaseActivity {
                 recyclerView.setParams(itemWidth,divide);
             }
         });
-
 
 
     }

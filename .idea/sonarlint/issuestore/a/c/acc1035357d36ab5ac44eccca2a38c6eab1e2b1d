@@ -1,0 +1,15 @@
+
+_squid:S1192w"IDefine a constant instead of duplicating this literal "unknown" 22 times.(Óºôb
+esquid:S4042["IUse "java.nio.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ
+Fsquid:S2093M"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+Ksquid:S28850"/Make "SIMPLE_DATE_FORMAT" an instance variable.(‘”ï«øÿÿÿÿ
+Gsquid:S28851"0Make "SIMPLE_DATE_FORMAT1" an instance variable.(À²”É
+Qsquid:S1141e"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Qsquid:S1141r"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Vsquid:S3400£"9Remove this method and declare a constant for this value.(ÿ˜Œßùÿÿÿÿ
+Lsquid:S1172¢"/Remove this unused method parameter "mContext".(ÍÜ•¡şÿÿÿÿ
+Asquid:S00108t")Either remove or fill this block of code.(”ı¾
+Bsquid:S00108™")Either remove or fill this block of code.(”ı¾
+Bsquid:S1181‘"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ
+V
+squid:S899[";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ

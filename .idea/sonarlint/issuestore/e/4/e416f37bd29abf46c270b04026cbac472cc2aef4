@@ -1,9 +1,9 @@
 
-squid:S1186^"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(™Î«şÿÿÿÿ
 squid:S1186Y"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÿİç›üÿÿÿÿ
-ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êÇÒ¼8“ï©ığ,
-lsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(€ë¢8èÛ†Óñ,
-Wsquid:UselessImportCheck"3Remove this unused import 'android.view.ViewGroup'.(‹îá
-usquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8ñîË€ñ,
-Asquid:S00108R")Either remove or fill this block of code.(”ı¾
 ssquid:S1450"WRemove the "mAdapter" field and declare it as a local variable in the relevant methods.(¨á¿”ûÿÿÿÿ
+usquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8ñîË€ñ,
+lsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(€ë¢8èÛ†Óñ,
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êÇÒ¼8“ï©ığ,
+squid:S1186^"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(™Î«şÿÿÿÿ
+Asquid:S00108R")Either remove or fill this block of code.(”ı¾
+Wsquid:UselessImportCheck"3Remove this unused import 'android.view.ViewGroup'.(‹îá

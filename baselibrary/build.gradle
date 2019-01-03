@@ -40,5 +40,4 @@ dependencies {
     api 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar'
     api 'com.github.PhilJay:MPAndroidChart:v3.0.3'
     api 'com.squareup.retrofit2:converter-gson:2.4.0'
-
 }

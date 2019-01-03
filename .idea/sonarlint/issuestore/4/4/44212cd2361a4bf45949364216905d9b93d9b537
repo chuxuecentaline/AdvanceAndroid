@@ -1,0 +1,12 @@
+
+Gsquid:S1066"/Merge this if statement with the enclosing one.(γΐΒ»
+Hsquid:S1068C",Remove this unused "mContext" private field.(»ϊΕΎψÿÿÿÿ
+Csquid:S1872u"'Use an "instanceof" comparison instead.(¬ΰ²Ίψÿÿÿÿ
+Dsquid:S1872"'Use an "instanceof" comparison instead.(πώτύÿÿÿÿ
+ssquid:S1450C"WRemove the "mContext" field and declare it as a local variable in the relevant methods.(»ϊΕΎψÿÿÿÿ
+™squid:S1186¶"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ζΎυ
+Asquid:S1181J"%Catch Exception instead of Throwable.(‡ΪΪψÿÿÿÿ
+Asquid:S1181Q"%Catch Exception instead of Throwable.(‡ΪΪψÿÿÿÿ
+Asquid:S1181["%Catch Exception instead of Throwable.(‡ΪΪψÿÿÿÿ
+Asquid:S1181b"%Catch Exception instead of Throwable.(‡ΪΪψÿÿÿÿ
+nsquid:S00117p"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò°Ϊϊÿÿÿÿ

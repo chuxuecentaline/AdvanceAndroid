@@ -1,0 +1,7 @@
+
+^squid:UselessImportCheck".Remove this unused import 'android.view.View'.(״½­ה‏ÿÿÿÿ8§׀את,
+ysquid:S1450"VRemove the "mDivide" field and declare it as a local variable in the relevant methods.( ·Ýרÿÿÿÿ8׳₪קבת,
+zsquid:UselessImportCheck	"JRemove this unused import 'android.view.animation.AccelerateInterpolator'.(©צױ‘רÿÿÿÿ8‰®תגת,
+squid:S1450"\Remove the "mMathPosition" field and declare it as a local variable in the relevant methods.(µר׀ֱüÿÿÿÿ8ק‹דת,
+Nsquid:S1068"+Remove this unused "mDivide" private field.( ·Ýרÿÿÿÿ8׳₪קבת,
+‚squid:S1450"_Remove the "mCurrentPosition" field and declare it as a local variable in the relevant methods.(€ז¿ףûÿÿÿÿ8ק‹דת,

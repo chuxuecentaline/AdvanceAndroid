@@ -1,7 +1,7 @@
 
 lsquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(õµóï8‚¥ª‚ñ,
+asquid:UselessImportCheck
+"6Remove this unused import 'com.example.baselibrary.R'.(Óš”í8Ò¥ªÒñ,
 hsquid:UselessImportCheck">Remove this unused import 'android.support.v7.widget.Toolbar'.(à½£8Ò¥ªÒñ,
 csquid:UselessImportCheck"8Remove this unused import 'android.view.LayoutInflater'.(À¯ÑÇ8½”£Òñ,
 ‚squid:UselessImportCheck"WRemove this unused import 'com.example.baselibrary.toolbar.normal.NormalNavigationBar'.(ï¼öž8Üˆ½€ñ,
-asquid:UselessImportCheck
-"6Remove this unused import 'com.example.baselibrary.R'.(Óš”í8Ò¥ªÒñ,

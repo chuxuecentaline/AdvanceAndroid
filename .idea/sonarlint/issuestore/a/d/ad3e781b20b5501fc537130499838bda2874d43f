@@ -1,0 +1,29 @@
+
+qsquid:S1192 "YDefine a constant instead of duplicating this literal "æ²¡æœ‰å¯ç”¨çš„è¿›ç¨‹äº†" 3 times.(™şä
+esquid:S1871Ü"MThis branch's code block is the same as the block for the branch on line 335.(Í¤¬Ğ
+Bsquid:S1181Ç"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ
+vsquid:S1192Š"^Define a constant instead of duplicating this literal "æ²¡æœ‰æ‰¾åˆ°åˆé€‚çš„StubInfo" 9 times.(œÕõ¾
+esquid:S1871ò"MThis branch's code block is the same as the block for the branch on line 367.(ÎÈæÓ
+qsquid:S2293‘"YReplace the type specification in this constructor call with the diamond operator ("<>").(åœ¡ß
+Bsquid:S1181´"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ
+jsquid:S00117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ú
+[squid:S1155Ì">Use isEmpty() to check whether the collection is empty or not.(–•£Àşÿÿÿÿ
+jsquid:S00117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öğêô
+jsquid:S00117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¥ıª
+osquid:S00117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ§Û¢ùÿÿÿÿ
+isquid:S3776p"RRefactor this method to reduce its Cognitive Complexity from 40 to the 15 allowed.(À»¡Ù
+esquid:S1871Ë"MThis branch's code block is the same as the block for the branch on line 195.(Í¤¬Ğ
+esquid:S1871‹"MThis branch's code block is the same as the block for the branch on line 131.(Í¤¬Ğ
+osquid:S00117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é³éïûÿÿÿÿ
+esquid:S1871Õ"MThis branch's code block is the same as the block for the branch on line 338.(ÎÈæÓ
+bsquid:S3981—"JThe size of "infos" is always ">=0", so update this test to use isEmpty().(¯×Ä
+jsquid:S3776°"RRefactor this method to reduce its Cognitive Complexity from 40 to the 15 allowed.(«¼÷‰
+esquid:S1871â"MThis branch's code block is the same as the block for the branch on line 351.(ÎÈæÓ
+esquid:S1871Ã"MThis branch's code block is the same as the block for the branch on line 320.(ÎÈæÓ
+osquid:S3776•"RRefactor this method to reduce its Cognitive Complexity from 69 to the 15 allowed.(—¾Œûÿÿÿÿ
+jsquid:S00117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ¥¸†
+Osquid:S1135¦"2Complete the task associated to this TODO comment.(ìàª˜ıÿÿÿÿ
+qsquid:S2293–"YReplace the type specification in this constructor call with the diamond operator ("<>").(æôÓô
+jsquid:S00117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÄ¼˜
+osquid:S00117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë®ï±ıÿÿÿÿ
+osquid:S3776Œ"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(î­Òúÿÿÿÿ

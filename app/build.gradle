@@ -20,6 +20,25 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    /*  sourceSets {
+        main {
+            jni.srcDirs = []//设置禁止gradle生成Android.mk
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    task ndkBuild(type: Exec) {//设置新的so的生成目录
+        commandLine "E:\\Users\\wxy\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd",
+                'NDK_PROJECT_PATH=build/intermediates/ndk',
+                'NDK_LIBS_OUT=libs',
+                'APP_BUILD_SCRIPT=jni/Android.mk',
+                'NDK_APPLICATION_MK=jni/Application.mk'
+    }
+
+    tasks.withType(JavaCompile) {
+        compileTask -> compileTask.dependsOn ndkBuild
+    }*/
+
 
 }
 
@@ -33,6 +52,8 @@ dependencies {
     api 'com.airbnb.android:lottie:2.5.1'
     implementation project(':baselibrary')
     implementation 'com.android.support:support-v4:27.1.1'
-    implementation "com.android.support:percent:27.1.1"
+    implementation 'com.android.support:percent:27.1.1'
     //  aidlPackageWhiteList "ICommAidlInterface.aidl"
+    implementation project(':DroidPlugin')
+    implementation project(':framelibrary')
 }

@@ -10,8 +10,11 @@ import android.view.View;
 import com.example.cherish.salehouse_kotlin.R;
 import com.example.cherish.salehouse_kotlin.activity.pattern.BuildActivity;
 import com.example.cherish.salehouse_kotlin.activity.pattern.FactoryActivity;
+import com.example.cherish.salehouse_kotlin.activity.pattern.IteratorActivity;
 import com.example.cherish.salehouse_kotlin.activity.pattern.ObserverActivity;
+import com.example.cherish.salehouse_kotlin.activity.pattern.PrototypeActivity;
 import com.example.cherish.salehouse_kotlin.activity.pattern.ProxyActivity;
+import com.example.cherish.salehouse_kotlin.activity.pattern.ResponsibilityChainActivity;
 import com.example.cherish.salehouse_kotlin.activity.pattern.SingletonActivity;
 import com.example.cherish.salehouse_kotlin.activity.pattern.StrategyActivity;
 import com.example.cherish.salehouse_kotlin.activity.pattern.TemplateActivity;
@@ -46,6 +49,14 @@ public class MineFragment extends BaseFragment {
         data.add("原型设计模式");
         data.add("迭代器设计模式");
         data.add("责任链设计模式");
+        data.add("外观模式");
+        data.add("享元模式");
+        data.add("中介模式");
+        data.add("桥接模式");
+        data.add("享元模式");
+        data.add("命令模式");
+        data.add("备忘录模式");
+        data.add("状态模式");
 
     }
 
@@ -92,6 +103,18 @@ public class MineFragment extends BaseFragment {
                         break;
                     case 7:
                         startActivity(ProxyActivity.class);
+                        break;
+                    case 8:
+                        startActivity(PrototypeActivity.class);
+                        break;
+                    case 9:
+                        startActivity(IteratorActivity.class);
+                        break;
+                    case 10:
+                        startActivity(ResponsibilityChainActivity.class);
+                        break;
+                    case 11:
+                        startActivity(AppearanceActivity.class);
                         break;
                 }
             }

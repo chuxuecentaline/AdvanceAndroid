@@ -40,26 +40,30 @@ public class AutoViewPagerActivity extends BaseActivity {
     @Override
     protected void findViews() {
         BindViewUtils.inject(this);
-        HttpUtils.with(this).url(url).get().execute(new HttpBaseCallBack<List<BannerBean>>() {
+        HttpUtils.with(this).url(url).get().execute(new HttpBaseCallBack<BannerBean>() {
             @Override
             public void onPreExecute() {
 
             }
 
+            @Override
+            protected void onSuccess(BannerBean json) {
 
+            }
 
             @Override
-            protected void onSuccess(final List<BannerBean> beans) {
+            protected void onSuccess(final BaseBean<List<BannerBean>> json) {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        System.out.println("---------->json2"+beans.toString());
+                        final List<BannerBean> result = json.getResult();
+                        System.out.println("---------->json2"+result.toString());
 
-                        final float percentage = 1f*Integer.parseInt(beans.get(0).getWidth()) / Integer.parseInt(beans.get(0).getHeight());
+                        final float percentage = 1f*Integer.parseInt(result.get(0).getWidth()) / Integer.parseInt(result.get(0).getHeight());
                         mBannerView.setAdapter(new ViewPagerViewAdapter() {
                             @Override
                             public int getCount() {
-                                return beans.size();
+                                return result.size();
                             }
 
                             @Override
@@ -72,7 +76,7 @@ public class AutoViewPagerActivity extends BaseActivity {
                                     imageView= (ImageView) container;
                                     System.out.println("复用页面---------->" + imageView.toString());
                                 }
-                                BannerBean bean = beans.get(position);
+                                BannerBean bean = result.get(position);
 
                                 Glide.with(AutoViewPagerActivity.this).load(bean.getImageUrl()).into(imageView);
                                 return imageView;
@@ -87,7 +91,6 @@ public class AutoViewPagerActivity extends BaseActivity {
                     }
                 });
             }
-
 
 
             @Override

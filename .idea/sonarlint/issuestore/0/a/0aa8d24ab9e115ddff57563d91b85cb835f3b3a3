@@ -1,7 +1,7 @@
 
-usquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8ù¬ûßù,
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êÇÒ¼
 ‡squid:UselessImportCheck"WRemove this unused import 'com.example.cherish.salehouse_kotlin.view.YahuNewsLoadView'.(ºÖ«şÿÿÿÿ8ÿ–˜‡ú,
+qsquid:UselessImportCheck"ARemove this unused import 'com.example.baselibrary.ioc.BindView'.(‰Ñ·÷ÿÿÿÿÿ8ÿ–˜‡ú,
 jsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(½ğÇüÿÿÿÿ
 Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÛÖı8ºØãâù,
-qsquid:UselessImportCheck"ARemove this unused import 'com.example.baselibrary.ioc.BindView'.(‰Ñ·÷ÿÿÿÿÿ8ÿ–˜‡ú,
-rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êÇÒ¼
+usquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8ù¬ûßù,

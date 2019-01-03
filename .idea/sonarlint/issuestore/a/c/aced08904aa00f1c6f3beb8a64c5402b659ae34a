@@ -1,2 +1,6 @@
 
 esquid:HiddenFieldCheck5"<Rename "layoutId" which hides the field declared at line 32.(¢þÇŒ8§×è±ú,
+|squid:UselessImportCheck"QRemove this unused import 'android.support.v7.widget.VectorEnabledTintResources'.(Œ¤8ˆ†÷Ùú,
+Gsquid:S1125¾"(Remove the literal "true" boolean value.(»˜àÍ8¹ò÷Ùú,
+lsquid:UselessImportCheck"<Remove this unused import 'android.annotation.SuppressLint'.(ÕƒóÏûÿÿÿÿ8ˆ†÷Ùú,
+gsquid:S2259“"CA "NullPointerException" could be thrown; "array" is nullable here.(ÍÙ¶äþÿÿÿÿ8ÏØÐÙú,

@@ -1,4 +1,4 @@
 
 tsquid:S00116"URename this field "tv_content" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ô©Ç8Ó¨àÕò,
-usquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8ğÉÕò,
 esquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(¨Ñÿ
+usquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8ğÉÕò,

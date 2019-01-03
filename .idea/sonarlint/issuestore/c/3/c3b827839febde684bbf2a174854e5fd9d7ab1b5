@@ -1,7 +1,8 @@
 
-†"squid:ClassVariableVisibilityCheck4"QMake mName a static final constant or non-public and provide accessors if needed.(®”êó8‘Ôñüõ,
-ysquid:S00116"URename this field "tv_content" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ÁĞ…øÿÿÿÿ8¯ß²ùõ,
-Ÿsquid:S1186G"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÛÖı8¼Ñùõ,
-Fsquid:S1148^"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8–í”úõ,
-Fsquid:S1185i"(Remove this method to simply inherit it.(ÍÙ÷¢8æšúõ,
-qsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(ÈÉÉ‰şÿÿÿÿ8ÃÉûõ,
+Ÿsquid:S1186H"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÛÖı8¼Ñùõ,
+ysquid:S00116"URename this field "tv_content" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ÁĞ…øÿÿÿÿ8¯ß²ùõ,
+†"squid:ClassVariableVisibilityCheck5"QMake mName a static final constant or non-public and provide accessors if needed.(®”êó8‘Ôñüõ,
+Fsquid:S1185j"(Remove this method to simply inherit it.(ÍÙ÷¢8æšúõ,
+zsquid:UselessImportCheck	"ORemove this unused import 'android.support.design.widget.FloatingActionButton'.(„Ÿ¹¼8Íªà¦ü,
+qsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(ÈÉÉ‰şÿÿÿÿ8ÃÉûõ,
+Fsquid:S1148_"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8–í”úõ,

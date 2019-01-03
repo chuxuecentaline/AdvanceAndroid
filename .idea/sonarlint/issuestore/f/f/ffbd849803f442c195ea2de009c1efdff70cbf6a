@@ -1,6 +1,6 @@
 
-qsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(Ü“¾±úÿÿÿÿ8í–ï£õ,
+ysquid:UselessImportCheck"NRemove this unused import 'io.reactivex.android.schedulers.AndroidSchedulers'.(¶çþ 8‘£²§õ,
 Ÿsquid:S1186%"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÛÖŽý8äæï£õ,
 ^squid:UselessImportCheck".Remove this unused import 'android.view.View'.(Ø½­äþÿÿÿÿ8‚ä¦õ,
 usquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8Ðýî£õ,
-ysquid:UselessImportCheck"NRemove this unused import 'io.reactivex.android.schedulers.AndroidSchedulers'.(¶çþ 8‘£²§õ,
+qsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(Ü“¾±úÿÿÿÿ8í–ï£õ,

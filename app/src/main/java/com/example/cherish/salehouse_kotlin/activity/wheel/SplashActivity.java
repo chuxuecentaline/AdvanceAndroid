@@ -1,5 +1,7 @@
 package com.example.cherish.salehouse_kotlin.activity.wheel;
 
+import android.animation.ObjectAnimator;
+import android.animation.ValueAnimator;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -33,6 +35,7 @@ public class SplashActivity extends BaseActivity {
         parallax_vp.setLayout(getSupportFragmentManager(), new int[]{R.layout.include_first_page,
                 R.layout.fragment_page_second, R.layout.fragment_page_third, R.layout
                 .fragment_page_first});
+        ObjectAnimator.ofFloat().start();
 
 
     }
