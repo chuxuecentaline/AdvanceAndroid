@@ -1,9 +1,9 @@
 
-Zsquid:UselessImportCheck"/Remove this unused import 'android.os.Handler'.(ûÛ’¡8Š¨ã»ÿ,
+qsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(ììñÔýÿÿÿÿ8Ç†ˆû,
 †squid:UselessImportCheck"[Remove this unused import 'com.example.cherish.salehouse_kotlin.view.radar.ItemDecoration'.(¼²û€8®œ³àú,
+usquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8ý„âÜú,
 squid:UselessImportCheck"_Remove this unused import 'com.example.cherish.salehouse_kotlin.adapter.CommonRecyclerAdapter'.(ÿƒžªýÿÿÿÿ8ÿŸÍÝú,
 zsquid:UselessImportCheck	"JRemove this unused import 'android.support.v7.widget.LinearLayoutManager'.(í™½Úúÿÿÿÿ8®œ³àú,
-qsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(ììñÔýÿÿÿÿ8Ç†ˆû,
-usquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8ý„âÜú,
+Zsquid:UselessImportCheck"/Remove this unused import 'android.os.Handler'.(ûÛ’¡8Š¨ã»ÿ,
 ssquid:UselessImportCheck"HRemove this unused import 'android.support.v7.widget.GridLayoutManager'.(ŸéÖÚ8üÞžÞú,
 ]squid:UselessImportCheck"3Remove this unused import 'android.content.Intent'.(³ð‹G8Ûà¨ÿ,

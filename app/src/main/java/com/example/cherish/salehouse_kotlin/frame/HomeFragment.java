@@ -3,7 +3,6 @@ package com.example.cherish.salehouse_kotlin.frame;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -11,14 +10,11 @@ import android.view.View;
 
 import com.example.cherish.salehouse_kotlin.R;
 import com.example.cherish.salehouse_kotlin.activity.customView.AlphabeticalIndexActivity;
-import com.example.cherish.salehouse_kotlin.activity.customView.AudioPlayActivity;
 import com.example.cherish.salehouse_kotlin.activity.customView.BehaviorActivity;
-import com.example.cherish.salehouse_kotlin.activity.wheel.BuilderNavigationBarActivity;
 import com.example.cherish.salehouse_kotlin.activity.customView.CardMoveActivity;
 import com.example.cherish.salehouse_kotlin.activity.customView.ColorTrackTextActivity;
 import com.example.cherish.salehouse_kotlin.activity.customView.ElementAnimalActivity;
 import com.example.cherish.salehouse_kotlin.activity.customView.IndicatorColorTrackTextActivity;
-import com.example.cherish.salehouse_kotlin.activity.wheel.KotlinLockActivity;
 import com.example.cherish.salehouse_kotlin.activity.customView.LoadingAnimalActivity;
 import com.example.cherish.salehouse_kotlin.activity.customView.PedometerActivity;
 import com.example.cherish.salehouse_kotlin.activity.customView.ProgressAnimalActivity;
@@ -30,6 +26,8 @@ import com.example.cherish.salehouse_kotlin.activity.customView.SlidingMenuActiv
 import com.example.cherish.salehouse_kotlin.activity.customView.TimeAnimalActivity;
 import com.example.cherish.salehouse_kotlin.activity.customView.ViewDragHelpActivity;
 import com.example.cherish.salehouse_kotlin.activity.customView.ViewTouchActivity;
+import com.example.cherish.salehouse_kotlin.activity.wheel.BuilderNavigationBarActivity;
+import com.example.cherish.salehouse_kotlin.activity.wheel.KotlinLockActivity;
 import com.example.cherish.salehouse_kotlin.adapter.ViewAdapter;
 
 import java.util.Arrays;
@@ -60,7 +58,6 @@ public class HomeFragment extends BaseFragment {
         mTool_bar = view.findViewById(R.id.tool_bar);
         mRecyclerview = view.findViewById(R.id.recyclerView);
         mRecyclerview.setLayoutManager(new LinearLayoutManager(getActivity()));
-       // mRecyclerview.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL));
         mAdapter = new ViewAdapter(getActivity(), Arrays.asList(mTitles));
         mRecyclerview.setAdapter(mAdapter);
         mTool_bar.setTitle("自定义控件");

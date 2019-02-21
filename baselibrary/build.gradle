@@ -23,7 +23,7 @@ android {
         }
     }
     //Gradle跨module引用aidl
-  //  aidlPackageWhiteList 'com/example/baselibrary/ICommAidlInterfac'
+    //  aidlPackageWhiteList 'com/example/baselibrary/ICommAidlInterfac'
 
 }
 
@@ -40,4 +40,7 @@ dependencies {
     api 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar'
     api 'com.github.PhilJay:MPAndroidChart:v3.0.3'
     api 'com.squareup.retrofit2:converter-gson:2.4.0'
+    api 'io.reactivex.rxjava2:rxjava:2.2.4'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
+    api 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
 }

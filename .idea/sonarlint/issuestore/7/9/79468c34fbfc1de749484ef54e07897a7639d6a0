@@ -1,0 +1,16 @@
+
+usquid:S00117c"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é¸Ô÷ÿÿÿÿÿ8Ô¸ç”Š-
+usquid:S00117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÅ«ıÿÿÿÿ8Ô¸ç”Š-
+ysquid:S00115t"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(óÑ­€8Ô¸ç”Š-
+psquid:S00117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¨Ó8Ô¸ç”Š-
+isquid:S001172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±Ëè¡
+esquid:S4201"IRemove this unnecessary null check; "instanceof" returns false for nulls.(Æêğ‡ùÿÿÿÿ
+Isquid:S11990"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+usquid:S00117d"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÅ«ıÿÿÿÿ8Ô¸ç”Š-
+usquid:S00117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é¸Ô÷ÿÿÿÿÿ8Ô¸ç”Š-
+usquid:S00117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëç³èøÿÿÿÿ8Ô¸ç”Š-
+Psquid:S11999"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8Ô¸ç”Š-
+~squid:S00115s"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Œ›ƒúÿÿÿÿ8Ô¸ç”Š-
+Isquid:S1199+"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+P"squid:SwitchLastCaseIsDefaultCheck(""Add a default case to this switch.(¡Ó˜ë
+osquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(§Ø‘¯úÿÿÿÿ

@@ -1,1 +1,1 @@
-include ':app', ':baselibrary', ':framelibrary', ':DroidPlugin'
+include ':app', ':baselibrary', ':framelibrary', ':DroidPlugin', ':aidllibrary'

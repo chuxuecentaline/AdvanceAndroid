@@ -1,5 +1,8 @@
 
-squid:S1450"cRemove the "bottomNavigationView" field and declare it as a local variable in the relevant methods.(ê¥ÎÚ8£ ªŸë,
-usquid:S3776)"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(†’àúùÿÿÿÿ8÷…Ë¡ë,
-jsquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(³ã×šøÿÿÿÿ
-W"squid:SwitchLastCaseIsDefaultCheckc""Add a default case to this switch.(¦¦¢†8œ€ñ ë,
+W"squid:SwitchLastCaseIsDefaultCheck|""Add a default case to this switch.(¦¦¢†8œ€ñ ë,
+squid:S1450"cRemove the "bottomNavigationView" field and declare it as a local variable in the relevant methods.(ê¥ÎÚ8£ ªŸë,
+Ksquid:S11856"(Remove this method to simply inherit it.(Û¶…óøÿÿÿÿ8—ëâ÷-
+usquid:S3776B"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(†’àúùÿÿÿÿ8÷…Ë¡ë,
+jsquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(³ã×šøÿÿÿÿ
+Fsquid:S1185'"(Remove this method to simply inherit it.(ËĞƒ8‘â÷-
+Ksquid:S11851"(Remove this method to simply inherit it.(¨ıÁüÿÿÿÿ8—ëâ÷-

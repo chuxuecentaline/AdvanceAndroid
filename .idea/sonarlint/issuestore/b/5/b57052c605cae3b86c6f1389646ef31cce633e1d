@@ -1,13 +1,13 @@
 
-csquid:UselessImportCheck"3Remove this unused import 'java.lang.reflect.Type'.(‰ûÕñıÿÿÿÿ8’¯ŸÂù,
-Ÿsquid:S11862"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÃÇÔü8òĞåäú,
-[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ÔÅıÁù,
-xsquid:UselessImportCheck"HRemove this unused import 'com.example.baselibrary.http.EngineCallBack'.(»İÇ•şÿÿÿÿ8‡ÓÕÂù,
-Ÿsquid:S1186j"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÛÖı8›ÌáÂù,
-Ÿsquid:S1186a"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(°‡“º8›ÌáÂù,
 nsquid:UselessImportCheck">Remove this unused import 'com.google.gson.reflect.TypeToken'.(İªıñøÿÿÿÿ8’¯ŸÂù,
-^squid:UselessImportCheck"3Remove this unused import 'android.view.ViewGroup'.(‹îá8Ş„ßÀù,
-\squid:UselessImportCheck"1Remove this unused import 'com.google.gson.Gson'.(–§8’¯ŸÂù,
-squid:S1186-"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Á…‘8›ÌáÂù,
-qsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(©Ãöùÿÿÿÿ8ñŞïµù,
+Ÿsquid:S1186a"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(°‡“º8›ÌáÂù,
+[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ÔÅıÁù,
+Ÿsquid:S1186j"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÛÖı8›ÌáÂù,
 bsquid:UselessImportCheck"7Remove this unused import 'com.google.gson.JsonObject'.(µÊ´½8ÔÅıÁù,
+csquid:UselessImportCheck"3Remove this unused import 'java.lang.reflect.Type'.(‰ûÕñıÿÿÿÿ8’¯ŸÂù,
+^squid:UselessImportCheck"3Remove this unused import 'android.view.ViewGroup'.(‹îá8Ş„ßÀù,
+qsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(©Ãöùÿÿÿÿ8ñŞïµù,
+\squid:UselessImportCheck"1Remove this unused import 'com.google.gson.Gson'.(–§8’¯ŸÂù,
+Ÿsquid:S11862"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÃÇÔü8òĞåäú,
+squid:S1186-"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Á…‘8›ÌáÂù,
+xsquid:UselessImportCheck"HRemove this unused import 'com.example.baselibrary.http.EngineCallBack'.(»İÇ•şÿÿÿÿ8‡ÓÕÂù,

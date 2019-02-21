@@ -1,6 +1,6 @@
 
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ïİï‘ıÿÿÿÿ
-‚squid:S00116"^Rename this field "EXTRA_ORIGIN_INTENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÉ‡¼ÿÿÿÿÿ8ˆì»¬û,
 Fsquid:S1148?"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¤—Ë«û,
-Gsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Äˆµ¬û,
+‚squid:S00116"^Rename this field "EXTRA_ORIGIN_INTENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÉ‡¼ÿÿÿÿÿ8ˆì»¬û,
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ïİï‘ıÿÿÿÿ
 jsquid:S00112a"FDefine and throw a dedicated exception instead of using a generic one.(»§‚œøÿÿÿÿ8Äˆµ¬û,
+Gsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Äˆµ¬û,

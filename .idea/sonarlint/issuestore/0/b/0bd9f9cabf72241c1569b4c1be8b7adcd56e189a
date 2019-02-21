@@ -1,5 +1,5 @@
 
-xsquid:S1450"URemove the "mCatch" field and declare it as a local variable in the relevant methods.(–½ÏÓıÿÿÿÿ8Ï¿²°ò,
 Msquid:S1068"*Remove this unused "mCatch" private field.(–½ÏÓıÿÿÿÿ8Ï¿²°ò,
 Msquid:S1068"/Remove this unused "UPLOAD_TYPE" private field.(Ò«½†8ùİ³ø,
+xsquid:S1450"URemove the "mCatch" field and declare it as a local variable in the relevant methods.(–½ÏÓıÿÿÿÿ8Ï¿²°ò,
 Ssquid:S2696U"6Make the enclosing method "static" or remove this set.(‚œ‰w8©‹­ò,

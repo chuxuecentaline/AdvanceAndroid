@@ -1,0 +1,6 @@
+
+Vsquid:S1068*"9Remove this unused "relativeUrlParamNames" private field.(™Æ…c8Ôç¾¼Š-
+zsquid:S1488D"\Immediately return this expression instead of assigning it to the temporary variable "body".(á½Ù§8ÛÜ¡ş-
+Ssquid:S1068'"0Remove this unused "mAnnotations" private field.(•›Óıÿÿÿÿ8Ôç¾¼Š-
+squid:S1450c"dRemove the "relativeUrlParamNames" field and declare it as a local variable in the relevant methods.(™Æ…c8û¨¾¼Š-
+Vsquid:S1068c"9Remove this unused "relativeUrlParamNames" private field.(™Æ…c8û¨¾¼Š-

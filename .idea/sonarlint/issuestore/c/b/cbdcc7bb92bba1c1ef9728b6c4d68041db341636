@@ -1,7 +1,6 @@
 
-squid:S1450,"\Remove the "mRecyclerview" field and declare it as a local variable in the relevant methods.(ğï¾¶üÿÿÿÿ8ü¿ı ë,
-[squid:S1134&"DTake the required action to fix the issue indicated by this comment.(€ÎÿÍ
-vsquid:S14502"XRemove the "mTool_bar" field and declare it as a local variable in the relevant methods.(ƒá®É8³Ñ¢ë,
-¤squid:S11866"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ü¯£Òùÿÿÿÿ8üÊ¡ ë,
-ssquid:S001162"TRename this field "mTool_bar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒá®É8³Ñ¢ë,
-—squid:UselessImportCheck"gRemove this unused import 'com.example.cherish.salehouse_kotlin.activity.customView.AudioPlayActivity'.(¹¿ªËúÿÿÿÿ8ÃÖ¨×ù,
+vsquid:S14500"XRemove the "mTool_bar" field and declare it as a local variable in the relevant methods.(ƒá®É8³Ñ¢ë,
+[squid:S1134$"DTake the required action to fix the issue indicated by this comment.(€ÎÿÍ
+¤squid:S11864"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ü¯£Òùÿÿÿÿ8üÊ¡ ë,
+ssquid:S001160"TRename this field "mTool_bar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒá®É8³Ñ¢ë,
+squid:S1450*"\Remove the "mRecyclerview" field and declare it as a local variable in the relevant methods.(ğï¾¶üÿÿÿÿ8ü¿ı ë,

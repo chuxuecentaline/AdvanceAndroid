@@ -1,12 +1,12 @@
 
-[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8‹ªıò,
 ssquid:UselessImportCheck"CRemove this unused import 'com.example.baselibrary.db.IDaoSupport'.(Á±°æøÿÿÿÿ8Ìƒüüò,
-Tsquid:S1444"6Make this "public static ACTION_BROADCAST" field final(Ü½–´8åş“÷ò,
-[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÑÒ¹öò,
-}squid:UselessImportCheck"MRemove this unused import 'com.example.cherish.salehouse_kotlin.bean.Person'.(µĞî°úÿÿÿÿ8‹ªıò,
-ysquid:S3008"[Rename this field "ACTION_BROADCAST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü½–´8åş“÷ò,
+[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8‹ªıò,
 ‘"squid:ClassVariableVisibilityCheck"\Make ACTION_BROADCAST a static final constant or non-public and provide accessors if needed.(Ü½–´8åş“÷ò,
-psquid:UselessImportCheck"@Remove this unused import 'com.example.baselibrary.IntentExtra'.(¤‹úØıÿÿÿÿ8Ç›ªıò,
-qsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(×çÔ¼øÿÿÿÿ8×©Şò,
-9squid:S3626F"Remove this redundant jump.(ûÁİ…8à¹Óõò,
 ysquid:UselessImportCheck"IRemove this unused import 'com.example.baselibrary.db.DaoSupportFactory'.(ì™ÉÚûÿÿÿÿ8Ìƒüüò,
+psquid:UselessImportCheck"@Remove this unused import 'com.example.baselibrary.IntentExtra'.(¤‹úØıÿÿÿÿ8Ç›ªıò,
+9squid:S3626F"Remove this redundant jump.(ûÁİ…8à¹Óõò,
+}squid:UselessImportCheck"MRemove this unused import 'com.example.cherish.salehouse_kotlin.bean.Person'.(µĞî°úÿÿÿÿ8‹ªıò,
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÑÒ¹öò,
+ysquid:S3008"[Rename this field "ACTION_BROADCAST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü½–´8åş“÷ò,
+Tsquid:S1444"6Make this "public static ACTION_BROADCAST" field final(Ü½–´8åş“÷ò,
+qsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(×çÔ¼øÿÿÿÿ8×©Şò,

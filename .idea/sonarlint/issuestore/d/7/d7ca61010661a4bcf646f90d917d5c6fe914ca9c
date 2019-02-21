@@ -1,0 +1,9 @@
+
+Psquid:S1068"2Remove this unused "parameterTypes" private field.(³ôÎÞ8£‹›·Š-
+…squid:S1488<"bImmediately return this expression instead of assigning it to the temporary variable "okHttpCall".(ÊšÃÎúÿÿÿÿ8«Š¬û-
+`squid:S1068"=Remove this unused "parameterAnnotationsArray" private field.(áÛ¾íûÿÿÿÿ8£‹›·Š-
+ˆ"squid:ClassVariableVisibilityCheck"SMake baseUrl a static final constant or non-public and provide accessors if needed.(¹¢Æ8‚—•ú-
+Œ"squid:ClassVariableVisibilityCheck"WMake callFactory a static final constant or non-public and provide accessors if needed.(Ó¨Àˆ8í¬•ú-
+Psquid:S10680"-Remove this unused "emptyArgs" private field.(—ÌÂŸøÿÿÿÿ8»èº¶Š-
+Ssquid:S1068"5Remove this unused "methodAnnotations" private field.(²õÒá8°±ª¸Š-
+Qsquid:S1068#"3Remove this unused "PARAM_URL_REGEX" private field.(ëã±›8…¥¼Š-

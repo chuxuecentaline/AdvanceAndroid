@@ -9,6 +9,8 @@
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:name=".MyApp"
@@ -85,7 +87,40 @@
         <activity android:name=".activity.pattern.PrototypeActivity" />
         <activity android:name=".activity.pattern.IteratorActivity" />
         <activity android:name=".activity.pattern.ResponsibilityChainActivity" />
-        <activity android:name=".activity.pattern.AppearanceActivity"></activity>
+        <activity android:name=".activity.pattern.AppearanceActivity" />
+        <activity android:name=".activity.wheel.OkHttpActivity" />
+        <!-- 其他的配置项 -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.cherish.salehouse_kotlin.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <!-- 其他的配置项 -->
+        <activity android:name=".activity.customView.TreeSetActivity" />
+        <activity android:name=".activity.wheel.AnalysisActivity" />
+        <activity android:name=".activity.analysis.RxJavaAnalysisActivity" />
+        <activity android:name=".activity.analysis.RxLoginActivity" />
+        <activity android:name=".activity.analysis.RxPayActivity" />
+        <activity android:name=".activity.frame.aidl.AidlFrameActivity" />
+        <activity
+            android:name=".activity.frame.aidl.Aidl2Activity"
+            android:process=":comMessage" />
+
+        <service android:name="com.example.aidllibrary.IPCService">
+            <intent-filter>
+                <action android:name="com.example.aidllibrary.IPCService" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".activity.analysis.RetrofitActivity" />
+        <activity android:name=".activity.wheel.ReflexActivity" />
+        <activity android:name=".activity.analysis.MVCActivity" />
+        <activity android:name=".activity.analysis.MVPActivity" />
+        <activity android:name=".activity.analysis.MVVMActivity"></activity>
     </application>
 
 </manifest>

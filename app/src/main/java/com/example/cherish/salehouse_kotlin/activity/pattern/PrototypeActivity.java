@@ -1,6 +1,5 @@
 package com.example.cherish.salehouse_kotlin.activity.pattern;
 
-import android.app.Activity;
 import android.os.Bundle;
 
 import com.example.baselibrary.base.BaseActivity;
@@ -8,6 +7,7 @@ import com.example.baselibrary.toolbar.normal.NormalNavigationBar;
 import com.example.cherish.salehouse_kotlin.R;
 import com.example.cherish.salehouse_kotlin.bean.prototype.AddressBean;
 import com.example.cherish.salehouse_kotlin.bean.prototype.UserBean;
+
 
 /**
  * 原型设计模式

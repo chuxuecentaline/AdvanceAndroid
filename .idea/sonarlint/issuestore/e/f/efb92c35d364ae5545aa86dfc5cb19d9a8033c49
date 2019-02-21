@@ -1,0 +1,99 @@
+
+lsquid:S1192¦"MDefine a constant instead of duplicating this literal ", TimeText='" 3 times.(ÿíú8¼¦¸£-
+qsquid:S00117˜"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ¡Ùª8¸˜íş-
+tsquid:S00116#"URename this field "AuthStatus" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ñš°8·ÛÙ´Š-
+ssquid:S00116,"ORename this field "Path" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÚ°úÿÿÿÿÿ8·ÛÙ´Š-
+ysquid:S001161"ZRename this field "DeptCompanyPath" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë¨Àğ8·ÛÙ´Š-
+vsquid:S00117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú¤Ö±ûÿÿÿÿ8¸˜íş-
+psquid:S00117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª‚Åî8¸˜íş-
+squid:S00116."[Rename this field "DepartmentStatus" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áåéÿÿÿÿÿ8·ÛÙ´Š-
+wsquid:S00116"SRename this field "UserType" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(» ©Èùÿÿÿÿ8·ÛÙ´Š-
+ysquid:S001169"URename this field "WxFilePath" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÿÅüúÿÿÿÿ8·ÛÙ´Š-
+osquid:S00116"QRename this field "DeptId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¼ıD8·ÛÙ´Š-
+usquid:S001163"VRename this field "FileHeadUrl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Œ¾Ë8·ÛÙ´Š-
+vsquid:S00117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öˆáıÿÿÿÿ8¸˜íş-
+usquid:S00117p"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õéµÀüÿÿÿÿ8¸˜íş-
+qsquid:S00117°"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Äú8¸˜íş-
+vsquid:S00117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÉúÿÿÿÿ8¸˜íş-
+vsquid:S00117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™•ß­ıÿÿÿÿ8¸˜íş-
+vsquid:S00116"RRename this field "EmpName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á–Ñ‚ùÿÿÿÿ8·ÛÙ´Š-
+qsquid:S00117è"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿù†£8¸˜íş-
+osquid:S00117X"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ø¤8¸˜íş-
+qsquid:S00117°"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üş·§8¸˜íş-
+wsquid:S001160"SRename this field "CityName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÆçÕşÿÿÿÿ8·ÛÙ´Š-
+psquid:S00117x"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀšÓá8¸˜íş-
+ysquid:S00116&"URename this field "IsManagers" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤– ùÿÿÿÿ8·ÛÙ´Š-
+vsquid:S001168"WRename this field "WeixinPicUrl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—¤Šê8·ÛÙ´Š-
+psquid:S00117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éç¢A8¸˜íş-
+xsquid:S00116)"TRename this field "Hroc_Code" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Ÿè‚øÿÿÿÿ8·ÛÙ´Š-
+zsquid:S001164"VRename this field "OtherImages" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯µäñşÿÿÿÿ8·ÛÙ´Š-
+qsquid:S00117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š¤®Ü8¸˜íş-
+zsquid:S00116$"VRename this field "IsShopOwner" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘•óªıÿÿÿÿ8·ÛÙ´Š-
+psquid:S00117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸¾¯Ú8¸˜íş-
+vsquid:S00117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ÇûÎúÿÿÿÿ8¸˜íş-
+vsquid:S00116"WRename this field "EmployeeData" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åƒ³Õ8ƒâ¯´Š-
+jsquid:S1192¦"KDefine a constant instead of duplicating this literal "TimeStamp=" 3 times.(ÿíú8¼¦¸£-
+osquid:S00116"PRename this field "EMail" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œœ¯í8·ÛÙ´Š-
+usquid:S00116"VRename this field "CheckReason" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•“ÁÌ8·ÛÙ´Š-
+rsquid:S00116%"TRename this field "IsDisable" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦™‘w8·ÛÙ´Š-
+qsquid:S00117À"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®‡šÄ8¸˜íş-
+qsquid:S00117Ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙäÁ8¸˜íş-
+wsquid:S00116 "XRename this field "WeiXinUnionid" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÉ¹Á8·ÛÙ´Š-
+tsquid:S00116Ï"TRename this field "TimeStamp" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬”øû8·ÛÙ´Š-
+qsquid:S00117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êËÿá8¸˜íş-
+xsquid:S00116'"TRename this field "StoreName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù–ı±ıÿÿÿÿ8·ÛÙ´Š-
+psquid:S00117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î‘öÍ8¸˜íş-
+vsquid:S00117à"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çõÔùÿÿÿÿ8¸˜íş-
+vsquid:S00117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÍÑÅùÿÿÿÿ8¸˜íş-
+psquid:S00116"RRename this field "ModDate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍĞÙK8·ÛÙ´Š-
+rsquid:S00116-"SRename this field "FlagType" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò¶åÉ8·ÛÙ´Š-
+wsquid:S001162"SRename this field "FilePath" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™âÁäûÿÿÿÿ8·ÛÙ´Š-
+xsquid:S00116Ğ"SRename this field "TimeText" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½âÓõùÿÿÿÿ8¸˜íş-
+usquid:S00117h"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ñ¸Íıÿÿÿÿ8¸˜íş-
+}squid:S00116""YRename this field "WeiXinNickname" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×¨´Îûÿÿÿÿ8·ÛÙ´Š-
+tsquid:S00116‘"TRename this field "TimeStamp" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬”øû8·ÛÙ´Š-
+psquid:S00117`"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š¢µö8¸˜íş-
+qsquid:S00117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èâŸ8¸˜íş-
+~squid:S00116+"ZRename this field "RoleDescription" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êëäÿüÿÿÿÿ8·ÛÙ´Š-
+osquid:S00116"PRename this field "EmpNo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºó‚Æ8·ÛÙ´Š-
+vsquid:S00117˜"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó™Éåşÿÿÿÿ8¸˜íş-
+qsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’‘º¾8¸˜íş-
+€squid:S00116!"\Rename this field "WeiXinBindingDate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è±çŒıÿÿÿÿ8·ÛÙ´Š-
+psquid:S00117˜"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÖ±8¸˜íş-
+vsquid:S00117À"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿˆæÒûÿÿÿÿ8¸˜íş-
+qsquid:S00116("RRename this field "ComName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š†½8·ÛÙ´Š-
+qsquid:S00117ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şİö 8¸˜íş-
+usquid:S00116"VRename this field "CompanyName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾Á¨Ç8·ÛÙ´Š-
+qsquid:S00117è"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œŠ8¸˜íş-
+qsquid:S00117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Œ¾8¸˜íş-
+ysquid:S001167"URename this field "CardUpLoad" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î±ªıûÿÿÿÿ8·ÛÙ´Š-
+qsquid:S00117¿"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Œ¾8¸˜íş-
+usquid:S00116"QRename this field "Mobile" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬şúáùÿÿÿÿ8·ÛÙ´Š-
+usquid:S00116"QRename this field "RoleId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù­Ò‡øÿÿÿÿ8·ÛÙ´Š-
+tsquid:S00116/"URename this field "FlagBelong" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ÙŸ8·ÛÙ´Š-
+qsquid:S00117Ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢›ëş8¸˜íş-
+vsquid:S00117Ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹…Ó´ıÿÿÿÿ8¸˜íş-
+psquid:S00117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éï³28¸˜íş-
+qsquid:S00117Ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Œ¾8¸˜íş-
+osquid:S00116	"PRename this field "Token" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢¢›ç8ŸÚ¬´Š-
+vsquid:S00116"RRename this field "RegDate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ“Ûøÿÿÿÿ8·ÛÙ´Š-
+xsquid:S001166"TRename this field "EmpStatus" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â›òˆúÿÿÿÿ8·ÛÙ´Š-
+xsquid:S00116±"SRename this field "TimeText" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½âÓõùÿÿÿÿ8¸˜íş-
+qsquid:S00117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÉ ¶8¸˜íş-
+qsquid:S00117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îã¼8¸˜íş-
+qsquid:S00117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ”Ëÿ8¸˜íş-
+nsquid:S00100ä"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÈèÏ8¸˜íş-
+xsquid:S00116
+"YRename this field "NeedUploadCard" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·’¾÷8ï±­´Š-
+xsquid:S00116’"SRename this field "TimeText" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½âÓõùÿÿÿÿ8¸˜íş-
+vsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¦Õáşÿÿÿÿ8¸˜íş-
+vsquid:S00117à"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ö¡ıÿÿÿÿ8¸˜íş-
+tsquid:S00116"PRename this field "EmpId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ú¹ûÿÿÿÿ8·ÛÙ´Š-
+{squid:S001165"]Rename this field "FullDepartMentName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶½ä!8·ÛÙ´Š-
+qsquid:S00117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ¡Ùª8¸˜íş-
+tsquid:S00116°"TRename this field "TimeStamp" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬”øû8·ÛÙ´Š-
+qsquid:S00117Ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ¡Ùª8¸˜íş-
+{squid:S00116:"WRename this field "NameAndPhone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·½°Îøÿÿÿÿ8¸˜íş-
+nsquid:S00100è"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œŠ8¸˜íş-
+rsquid:S00116*"SRename this field "RoleName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ½ƒØ8·ÛÙ´Š-
+vsquid:S00117Ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³œ¯Òüÿÿÿÿ8¸˜íş-

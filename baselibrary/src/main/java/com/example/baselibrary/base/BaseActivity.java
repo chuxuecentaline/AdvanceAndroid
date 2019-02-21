@@ -1,14 +1,11 @@
 package com.example.baselibrary.base;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
-
-import com.example.baselibrary.R;
-import com.example.baselibrary.toolbar.normal.NormalNavigationBar;
 
 
 /**
@@ -46,5 +43,7 @@ public abstract class BaseActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-
+    public void startActivity(Context context, Class<?> cls) {
+        startActivity(new Intent(context, cls));
+    }
 }

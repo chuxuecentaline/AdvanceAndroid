@@ -9,10 +9,12 @@ import android.view.View;
 import com.example.cherish.salehouse_kotlin.R;
 import com.example.cherish.salehouse_kotlin.activity.wheel.AidlActivity;
 import com.example.cherish.salehouse_kotlin.activity.wheel.AlertDialogActivity;
+import com.example.cherish.salehouse_kotlin.activity.wheel.AnalysisActivity;
 import com.example.cherish.salehouse_kotlin.activity.wheel.BuilderFoldNavigationBarActivity;
 import com.example.cherish.salehouse_kotlin.activity.wheel.BuilderNavigationBarActivity;
 import com.example.cherish.salehouse_kotlin.activity.wheel.DaoActicity;
 import com.example.cherish.salehouse_kotlin.activity.wheel.IocActivity;
+import com.example.cherish.salehouse_kotlin.activity.wheel.OkHttpActivity;
 import com.example.cherish.salehouse_kotlin.activity.wheel.OkHttpEngineActicity;
 import com.example.cherish.salehouse_kotlin.adapter.BaseRecyclerAdapter;
 import com.example.cherish.salehouse_kotlin.adapter.NewsAdapter;
@@ -44,6 +46,8 @@ public class NewsFragment extends BaseFragment {
         datas.add("打造OkHttp 网络链式调用");
         datas.add("定制外部存储数据库");
         datas.add("AIDL 跨进程通信");
+        datas.add("OkHttp 缓存+断点下载");
+        datas.add("三方库源码分析");
     }
 
     @Override
@@ -95,6 +99,12 @@ public class NewsFragment extends BaseFragment {
                        break;
                    case 10:
                        startActivity(AidlActivity.class);
+                       break;
+                   case 11:
+                       startActivity(OkHttpActivity.class);
+                       break;
+                   case 12:
+                       startActivity(AnalysisActivity.class);
                        break;
                        default:
                            break;

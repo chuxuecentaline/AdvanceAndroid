@@ -1,0 +1,8 @@
+
+esquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(æÿÛ„
+isquid:S13015"KReplace this "switch" statement by "if" statements to increase readability.(ŽºÖ8ÄŸ¥¥-
+¤squid:S1186,"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷»¤¯þÿÿÿÿ8Š¼¤-
+zsquid:S1450"WRemove the "mRxLogin" field and declare it as a local variable in the relevant methods.(š¾Óàøÿÿÿÿ8ùž’¦-
+Ÿsquid:S1186J"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×ÝŠÎ8ñ©ß¦-
+¤squid:S1186E"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸ÜÒÄøÿÿÿÿ8ñ©ß¦-
+Ÿsquid:S1186:"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úÑ¯¤8ñ©ß¦-

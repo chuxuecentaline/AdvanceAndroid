@@ -1,17 +1,10 @@
 package com.example.cherish.salehouse_kotlin.frame;
 
-import android.app.Activity;
-import android.content.Context;
-import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import android.widget.TextView;
 
 import com.example.cherish.salehouse_kotlin.R;
 import com.example.cherish.salehouse_kotlin.activity.chart.MPAndroidChartActivity;
@@ -19,16 +12,15 @@ import com.example.cherish.salehouse_kotlin.activity.customView.AudioPlayActivit
 import com.example.cherish.salehouse_kotlin.activity.customView.CanvasCicleDrawableActivity;
 import com.example.cherish.salehouse_kotlin.activity.customView.FlowerActivity;
 import com.example.cherish.salehouse_kotlin.activity.customView.ShakeAnimalTextViewActivity;
+import com.example.cherish.salehouse_kotlin.activity.customView.TreeSetActivity;
 import com.example.cherish.salehouse_kotlin.activity.customView.YahuNewsLoadActivity;
 import com.example.cherish.salehouse_kotlin.activity.wheel.AutoViewPagerActivity;
 import com.example.cherish.salehouse_kotlin.activity.wheel.DroidPlugin360Activity;
 import com.example.cherish.salehouse_kotlin.activity.wheel.RadarScanActivity;
+import com.example.cherish.salehouse_kotlin.activity.wheel.ReflexActivity;
 import com.example.cherish.salehouse_kotlin.activity.wheel.SplashActivity;
 import com.example.cherish.salehouse_kotlin.adapter.BaseRecyclerAdapter;
-import com.example.cherish.salehouse_kotlin.adapter.MultiAdapter;
-import com.example.cherish.salehouse_kotlin.adapter.MyAdapter;
 import com.example.cherish.salehouse_kotlin.adapter.NewsAdapter;
-import com.example.cherish.salehouse_kotlin.view.MultiTextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -55,6 +47,8 @@ public class StoreFragment extends BaseFragment {
         data.add("酷狗引导页");
         data.add("微信QQ附近好友雷达扫描");
         data.add("360 DroidPlugin 插件打开本地未安装apk 的页面");
+        data.add("treeSet 列数相同获取每列的最大值");
+        data.add("java 反射基础+注解");
     }
 
     @Override
@@ -107,6 +101,12 @@ public class StoreFragment extends BaseFragment {
                         break;
                     case 8:
                         startActivity(DroidPlugin360Activity.class);
+                        break;
+                    case 9:
+                        startActivity(TreeSetActivity.class);
+                        break;
+                    case 10:
+                        startActivity(ReflexActivity.class);
                         break;
                     case 100:
                         startActivity(ShakeAnimalTextViewActivity.class);

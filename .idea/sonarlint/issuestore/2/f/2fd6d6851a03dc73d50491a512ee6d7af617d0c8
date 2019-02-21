@@ -1,5 +1,5 @@
 
 U"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ãÁð™øÿÿÿÿ
+†"squid:ClassVariableVisibilityCheck"SMake letters a static final constant or non-public and provide accessors if needed.(Å¼‚Öûÿÿÿÿ
 ”"squid:ClassVariableVisibilityCheck£"`Make mOnItemClickListener a static final constant or non-public and provide accessors if needed.(„â™‡ûÿÿÿÿ
 psquid:S1450"TRemove the "mPath" field and declare it as a local variable in the relevant methods.(³²ÿ˜þÿÿÿÿ
-†"squid:ClassVariableVisibilityCheck"SMake letters a static final constant or non-public and provide accessors if needed.(Å¼‚Öûÿÿÿÿ
