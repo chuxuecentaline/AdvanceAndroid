@@ -1,0 +1,6 @@
+
+Xsquid:S2209J"5Change this instance-reference to a static reference.(‡à½îøÿÿÿÿ8¿¹˜¥‘-
+msquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(Ñ¨ìúûÿÿÿÿ8ÜÜúø-
+¥squid:S1186¬"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ä÷†Áşÿÿÿÿ8ãÅ˜£‘-
+ squid:S1186Œ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×İŠÎ8ØË®£‘-
+ squid:S1186¦"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×İŠÎ8ÿ±£‘-

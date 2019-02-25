@@ -1,5 +1,2 @@
 
-[squid:S2147"DCombine this catch with the one at line 24, which has the same body.(Å¡ß
-?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-jsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(º’¸ùÿÿÿÿ
-?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+lsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(ß‹…8‘Æ»õ-

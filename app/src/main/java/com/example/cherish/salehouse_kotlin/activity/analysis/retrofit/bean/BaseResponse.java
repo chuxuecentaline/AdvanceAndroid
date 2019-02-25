@@ -74,4 +74,10 @@ public class BaseResponse<T> {
             Rows = rows;
         }
     }
+
+    @Override
+    public String toString() {
+        return "BaseResponse{" + "RtnCode=" + RtnCode + ", RtnMsg='" + RtnMsg + '\'' + ", " +
+                "content=" + content + ", Page=" + Page + '}';
+    }
 }

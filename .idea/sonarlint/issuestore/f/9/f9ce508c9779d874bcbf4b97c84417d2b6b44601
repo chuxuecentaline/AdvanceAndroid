@@ -1,0 +1,10 @@
+
+¤squid:S1186+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸ÜÒÄøÿÿÿÿ8Àò®Ÿ‘-
+Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Áž–ã8­Ûº£‘-
+†"squid:ClassVariableVisibilityCheck"QMake mData a static final constant or non-public and provide accessors if needed.(·É÷Ü8Ãäóš‘-
+Ÿsquid:S1186<"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ðßå‚8’ÿº£‘-
+¤squid:S1186F"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸ÜÒÄøÿÿÿÿ8ËòŒ¢‘-
+‡"squid:ClassVariableVisibilityCheck"SMake mWxData a static final constant or non-public and provide accessors if needed.(Ó½‰8ó€ôš‘-
+Ÿsquid:S11867"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Áž–ã8’ÿº£‘-
+Ÿsquid:S1186!"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ðßå‚8­Ûº£‘-
+[squid:S1134"DTake the required action to fix the issue indicated by this comment.(€ÎÿÍ

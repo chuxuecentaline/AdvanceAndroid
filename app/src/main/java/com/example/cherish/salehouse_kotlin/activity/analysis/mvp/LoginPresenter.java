@@ -8,7 +8,6 @@ import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;
 
 /**
- * FIXME: cherish 请添加描述
  *
  * @Author: cherish
  * @CreateDate: 2019/2/20 16:41

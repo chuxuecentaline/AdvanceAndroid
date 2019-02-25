@@ -1,3 +1,6 @@
 
-—squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(νΰE
-squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(€ϊÿÿÿÿ
+bsquid:S42751"DRefactor this getter so that it actually refers to the field "view".(Β°τρ8Μ§ίρ-
+bsquid:S2147'"DCombine this catch with the one at line 37, which has the same body.(Ε΅ί8μ«Ύρ-
+Fsquid:S1148("#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8μ«Ύρ-
+Fsquid:S1148&"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8μ«Ύρ-
+Fsquid:S1068"(Remove this unused "view" private field.(ψ±ζ’8Μ§ίρ-

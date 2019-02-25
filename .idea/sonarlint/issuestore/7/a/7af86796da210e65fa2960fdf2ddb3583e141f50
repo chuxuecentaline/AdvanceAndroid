@@ -1,0 +1,13 @@
+
+zsquid:S1192"]Define a constant instead of duplicating this literal "Cannot locate field %s on %s" 3 times.(ÉŒÀíúÿÿÿÿ
+wsquid:S1192l"[Define a constant instead of duplicating this literal "The field must not be null" 4 times.(Şâ•ùÿÿÿÿ
+|squid:S1192Œ"_Define a constant instead of duplicating this literal "target object must not be null" 4 times.(¬¶¾«üÿÿÿÿ
+usquid:S2293*"YReplace the type specification in this constructor call with the diamond operator ("<>").(ğ³‘ ùÿÿÿÿ
+nsquid:S37762"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ş´€øøÿÿÿÿ
+Vsquid:S1118(":Add a private constructor to hide the implicit public one.(Ï²×ùÿÿÿÿ
+hsquid:S2259È"P"NullPointerException" will be thrown when invoking method "writeStaticField()".(÷ú¡Ã
+gsquid:S2259¹"O"NullPointerException" will be thrown when invoking method "readStaticField()".(íÀçæ
+Qsquid:UselessImportCheck".Remove this unused import 'java.util.HashSet'.(Ê‚êX
+Tsquid:UselessImportCheck!"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+]squid:UselessImportCheck "4Remove this unused import 'java.util.LinkedHashSet'.(à€¼úÿÿÿÿ
+Tsquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ

@@ -1,0 +1,8 @@
+
+Fsquid:S1148e"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¬ë¬ ‘-
+Hsquid:S1181."%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ8¾· ‘-
+esquid:S00112f"FDefine and throw a dedicated exception instead of using a generic one.(¡§Ğ¥8¬ë¬ ‘-
+squid:S1319s"qThe type of the "methodMap" object should be an interface such as "Map" rather than the implementation "HashMap".(’Ï…ì8 ÔŠ¡‘-
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(ºÑ®µ8øíÃ™‘-
+esquid:S00112/"FDefine and throw a dedicated exception instead of using a generic one.(õº«8¾· ‘-
+esquid:S00112<"FDefine and throw a dedicated exception instead of using a generic one.(ú¾²Ù8 ¿Ë¡‘-

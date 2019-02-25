@@ -13,7 +13,7 @@ import com.example.cherish.salehouse_kotlin.activity.analysis.mvp.reJect.MvpPres
 import com.example.cherish.salehouse_kotlin.activity.analysis.retrofit.bean.LoginData;
 import com.example.cherish.salehouse_kotlin.activity.analysis.retrofit.bean.LoginReq;
 
-public class MVPActivity extends BaseMvpActivity implements LoginContract.LoginView {
+public class MVPActivity extends BaseMvpActivity implements LoginContract.LoginView{
 
     @BindView(R.id.tv_content)
     AppCompatTextView tv_content;

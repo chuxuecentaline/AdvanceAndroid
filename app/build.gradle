@@ -20,43 +20,17 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    /*  sourceSets {
-        main {
-            jni.srcDirs = []//设置禁止gradle生成Android.mk
-            jniLibs.srcDirs = ['libs']
-        }
-    }
-
-    task ndkBuild(type: Exec) {//设置新的so的生成目录
-        commandLine "E:\\Users\\wxy\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd",
-                'NDK_PROJECT_PATH=build/intermediates/ndk',
-                'NDK_LIBS_OUT=libs',
-                'APP_BUILD_SCRIPT=jni/Android.mk',
-                'NDK_APPLICATION_MK=jni/Application.mk'
-    }
-
-    tasks.withType(JavaCompile) {
-        compileTask -> compileTask.dependsOn ndkBuild
-    }*/
-
 
 }
 
 dependencies {
-    api fileTree(include: ['*.jar'], dir: 'libs')
-    api 'com.android.support.constraint:constraint-layout:1.1.3'
-    api 'io.reactivex.rxjava2:rxjava:2.2.6'
-    api 'io.reactivex.rxjava2:rxandroid:2.1.0'
-    api 'com.android.support:recyclerview-v7:27.1.1'
-    api 'com.android.support:cardview-v7:27.1.1'
-    api 'com.airbnb.android:lottie:2.5.1'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation project(':baselibrary')
-    implementation 'com.android.support:support-v4:27.1.1'
-    implementation 'com.android.support:percent:27.1.1'
-    //  aidlPackageWhiteList "ICommAidlInterface.aidl"
     implementation project(':DroidPlugin')
     implementation project(':framelibrary')
     implementation project(':aidllibrary')
+
+
 }
 tasks.withType(JavaCompile) {
     options.encoding = "UTF-8"
